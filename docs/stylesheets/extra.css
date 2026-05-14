@@ -1,0 +1,113 @@
+/* ---------------------------------------------------------
+   Activeo Brand Theme for MkDocs Material
+   --------------------------------------------------------- */
+
+/* Light mode */
+:root {
+  --md-primary-fg-color: #003A70;
+  --md-primary-fg-color--light: #009FE3;
+  --md-primary-fg-color--dark: #002244;
+  --md-accent-fg-color: #009FE3;
+  --md-default-bg-color: #FFFFFF;
+}
+
+.md-footer {
+  background: #002b5c;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #009FE3;
+  --md-primary-fg-color--light: #00B7FF;
+  --md-primary-fg-color--dark: #003A70;
+  --md-accent-fg-color: #00B7FF;
+  --md-default-bg-color: #0A0A0A;
+}
+
+/* ---------------------------------------------------------
+   Table Layout
+   --------------------------------------------------------- */
+
+.md-typeset__table {
+  overflow-x: auto;
+  display: block;
+  width: 100%;
+}
+
+.md-typeset__table table {
+  min-width: 1400px;
+}
+
+.md-typeset table.md-table th:first-child,
+.md-typeset table.md-table td:first-child {
+  width: 1%;
+  max-width: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.md-typeset table.md-table th:last-child,
+.md-typeset table.md-table td:last-child {
+  width: auto;
+  white-space: normal;
+}
+
+.md-typeset table.md-table th,
+.md-typeset table.md-table td {
+  padding: 6px 12px;
+  vertical-align: middle;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  overflow-wrap: break-word;
+}
+
+.md-typeset table.md-table thead th {
+  border-bottom: 2px solid var(--md-default-fg-color--lighter);
+}
+
+.md-typeset table td,
+.md-typeset table th {
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table td:last-child,
+.md-typeset table th:last-child {
+  border-right: none;
+}
+
+/* Flex container for icons */
+.cell-flex {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ---------------------------------------------------------
+   Correct Icon System (Material Symbols)
+   --------------------------------------------------------- */
+
+.md-icon {
+  font-family: "Material Symbols Outlined" !important;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 18px !important;
+  line-height: 1 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
+}
+
+/* Icon color for light mode */
+[data-md-color-scheme="default"] .md-icon {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Icon color for dark mode */
+[data-md-color-scheme="slate"] .md-icon {
+  color: rgba(255, 255, 255, 0.87);
+}

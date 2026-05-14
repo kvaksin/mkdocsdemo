@@ -1,0 +1,87 @@
+site_name: PCCE Documentation
+
+
+theme:
+  name: material
+  logo: images/activeo.png
+  favicon: images/favicon.png
+  custom_dir: docs/overrides
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/library
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - navigation.sidebar
+    - navigation.sidebar.sticky
+    - navigation.prune
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  
+docs_dir: docs
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - meta
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_javascript:
+  - javascripts/backtotop.js
+  - javascripts/credentials.js
+
+extra_css:
+  - stylesheets/disable-right-toc.css
+  - stylesheets/backtotop.css
+  - stylesheets/activeo-colors.css
+  - stylesheets/sidebar-collapse.css
+  - stylesheets/buttons.css
+  - stylesheets/fullwidth.css
+  - stylesheets/extra.css
+
+extra:
+  footer: "Activeo – Delivering Superior Customer Experience"
+
+
+nav:
+  - Home: index.md
+  - Contact Center:
+      - Overview: cc/index.md
+      - PCCE 15.0 2K: cc/pcce.md
+      - Server Credentials: cc/serverdata.md
+  - Verint WFO: verint.md
+  - Logepal: logepal.md
+
+plugins:
+  - search
+  - macros

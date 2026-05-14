@@ -1,0 +1,17 @@
+/* Completely remove the right sidebar (TOC panel) */
+.md-sidebar--secondary {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    max-width: 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* Expand content area to full width */
+.md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}

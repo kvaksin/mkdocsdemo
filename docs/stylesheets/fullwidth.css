@@ -1,0 +1,33 @@
+/* Completely remove the right sidebar (TOC) */
+.md-sidebar--secondary {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    max-width: 0 !important;
+    min-width: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Force the main grid to collapse to 2 columns */
+.md-main__inner {
+    grid-template-columns: 1fr minmax(0, 100%) !important;
+}
+
+/* Expand content area to full width */
+.md-content {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Expand the container to full width */
+.md-container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* Expand the grid wrapper */
+.md-grid {
+    max-width: 100% !important;
+    width: 100% !important;
+}

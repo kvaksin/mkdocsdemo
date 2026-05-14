@@ -1,0 +1,82 @@
+/* ---------------------------------------------------------
+   TINY BUTTONS (RDP / SSH)
+--------------------------------------------------------- */
+
+.md-button--tiny {
+    padding: 2px 8px !important;
+    font-size: 0.65rem !important;
+    line-height: 1.1 !important;
+    border-radius: 4px !important;
+    min-height: 0 !important;
+    text-transform: none !important;
+}
+
+/* Primary = RDP (blue) */
+.md-button--primary {
+    background-color: #1e88e5 !important;
+    color: white !important;
+}
+
+/* Secondary = SSH (purple) */
+.md-button--secondary {
+    background-color: #7e57c2 !important;
+    color: white !important;
+}
+
+
+/* ---------------------------------------------------------
+   CREDENTIAL COPY / PASSWORD TOGGLE ICON BUTTONS
+--------------------------------------------------------- */
+
+/* Wrapper button */
+.icon-btn {
+    background: none !important;
+    border: none !important;
+    cursor: pointer;
+    padding: 0 2px !important;
+    margin-left: 4px !important;
+    line-height: 1 !important;
+    vertical-align: middle !important;
+}
+
+/* Correct Material Icon styling */
+.icon-btn .md-icon {
+    font-size: 16px !important;      /* perfect size for tables */
+    line-height: 1 !important;
+    color: #002b5c !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    vertical-align: middle !important;
+}
+
+/* Hover effect */
+.icon-btn:hover .md-icon {
+    color: #004080 !important;
+}
+
+
+/* ---------------------------------------------------------
+   PASSWORD + CREDENTIAL TEXT
+--------------------------------------------------------- */
+
+.password,
+.credentials-text {
+    font-family: monospace;
+    font-size: 0.80rem !important;
+    line-height: 1.2 !important;
+    letter-spacing: 1px !important;
+    vertical-align: middle !important;
+}
+
+
+/* ---------------------------------------------------------
+   COMPACT TABLE LAYOUT
+--------------------------------------------------------- */
+
+.md-typeset table td,
+.md-typeset table th {
+    padding: 4px 8px !important;
+    font-size: 0.80rem !important;
+    line-height: 1.2 !important;
+}
