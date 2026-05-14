@@ -41,9 +41,9 @@ The following table lists the server details for the Cisco Packaged Contact Cent
 | 19 | Reverse Proxy B | NIC1 - PCCEPublic<br>NIC2 - External DNS | {{ IP19 }} | | <div class="cell-flex"><span class="credentials-text">{{ADUSER}}</span><button class="icon-btn copy-btn" data-copy="{{ADUSER}}"><span class="md-icon">content_copy</span></button></div> | <div class="cell-flex"><span class="password" data-password="{{ADPASS}}">••••••••</span><button class="icon-btn copy-pass" data-copy="{{ADPASS}}"><span class="md-icon">content_copy</span></button><button class="icon-btn toggle-pass"><span class="md-icon">visibility</span></button></div> | [SSH](http://{{ IP19 }}:6081/){ .md-button .md-button--tiny .md-button--secondary target=_blank } | Reverse Proxy (RedHat) |
 
 
-<a href="https://activeogroup.sharepoint.com/:x:/s/customers-hub-FR/IQCm5tLfewmMRaGhPYJ6BnKiAZG6kwHd0f0DeILpvF9q4L4?e=KpP6gb"
+<a href="https://www.cisco.com"
    target="_blank"
    rel="noopener noreferrer"
    class="md-button md-button--primary">
-   📄 Sharepoint file with details
+   📄 External doc
 </a>
