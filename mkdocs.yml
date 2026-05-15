@@ -85,4 +85,4 @@ nav:
 plugins:
   - search
   - macros
-    module_name: macros/mkdocs_macros.py
+    module_name: overrides/macros/mkdocs_macros
