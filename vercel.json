@@ -1,5 +1,5 @@
 {
-  "installCommand": "pip3 install -r requirements.txt",
+  "installCommand": "pip3 install -r requirements-vercel.txt",
   "buildCommand": "mkdocs build -d public --clean",
   "outputDirectory": "public"
 }
