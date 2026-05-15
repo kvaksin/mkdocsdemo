@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------
-   TINY BUTTONS (RDP / SSH)
+   TINY ACTION BUTTONS (RDP / SSH)
 --------------------------------------------------------- */
 
 .md-button--tiny {
@@ -25,10 +25,11 @@
 
 
 /* ---------------------------------------------------------
-   CREDENTIAL COPY / PASSWORD TOGGLE ICON BUTTONS
+   ICON BUTTONS (COPY / TOGGLE PASSWORD)
+   IMPORTANT: Only override icons INSIDE these buttons.
+   Do NOT override .md-icon globally.
 --------------------------------------------------------- */
 
-/* Wrapper button */
 .icon-btn {
     background: none !important;
     border: none !important;
@@ -37,17 +38,20 @@
     margin-left: 4px !important;
     line-height: 1 !important;
     vertical-align: middle !important;
-}
-
-/* Correct Material Icon styling */
-.icon-btn .md-icon {
-    font-size: 16px !important;      /* perfect size for tables */
-    line-height: 1 !important;
-    color: #002b5c !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    vertical-align: middle !important;
+}
+
+/* Correct Material Symbols font for table icons */
+.icon-btn .md-icon {
+    font-family: "Material Symbols Outlined" !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20 !important;
+    color: #002b5c !important;
 }
 
 /* Hover effect */
@@ -57,12 +61,12 @@
 
 
 /* ---------------------------------------------------------
-   PASSWORD + CREDENTIAL TEXT
+   PASSWORD + USERNAME TEXT
 --------------------------------------------------------- */
 
 .password,
 .credentials-text {
-    font-family: monospace;
+    font-family: monospace !important;
     font-size: 0.80rem !important;
     line-height: 1.2 !important;
     letter-spacing: 1px !important;
