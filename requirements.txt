@@ -3,8 +3,8 @@ name = "mkdocs-site"
 version = "1.0.0"
 requires-python = ">=3.9"
 dependencies = [
-  "mkdocs",
-  "mkdocs-material",
-  "mkdocs-glightbox",
-  "mkdocs-macros-plugin"
+  "mkdocs >=1.4.0",
+  "mkdocs-material >=9.0.0",
+  "mkdocs-glightbox >=0.1.0",
+  "mkdocs-macros-plugin >=1.5.0"
 ]
