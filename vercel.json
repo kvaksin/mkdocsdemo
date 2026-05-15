@@ -2,6 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "",
-  "buildCommand": "uvx --from mkdocs --from mkdocs-material --from mkdocs-glightbox --from mkdocs-macros-plugin mkdocs build -d public --clean",
+  "buildCommand": "uv run --with \"mkdocs>=1.4.0\" --with \"mkdocs-material>=9.0.0\" --with \"mkdocs-glightbox>=0.1.0\" --with \"mkdocs-macros-plugin>=1.5.0\" mkdocs build -d public --clean",
   "outputDirectory": "public"
 }
