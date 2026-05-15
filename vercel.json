@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pip3 install uv && uv sync && uv run mkdocs build -d public --clean",
-  "outputDirectory": "public",
-  "ignoreCommand": "true"
+  "installCommand": "pip3 install -r requirements.txt",
+  "buildCommand": "mkdocs build -d public --clean",
+  "outputDirectory": "public"
 }
