@@ -1,10 +1,5 @@
 {
   "buildCommand": "pip3 install uv && uv sync && uv run mkdocs build -d public --clean",
   "outputDirectory": "public",
-  "ignoreCommand": "true",
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "python3.12"
-    }
-  }
+  "ignoreCommand": "true"
 }
