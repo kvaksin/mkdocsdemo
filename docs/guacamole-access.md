@@ -1,4 +1,4 @@
-# Guacamole Access
+# Guacamole Service
 
 Use Apache Guacamole for browser-based RDP and SSH sessions on the same domain as this portal.
 

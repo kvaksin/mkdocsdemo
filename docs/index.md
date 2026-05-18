@@ -5,9 +5,22 @@ General overview of the Contact Center documentation.
 ## Components
 
 - [Packaged Contact Center Enterprise (PCCE) 15.0 2K](cc/index.md)
-- [Guacamole Access](guacamole-access.md)
 - [Verint WFO](verint.md)
 - [Logepal](logepal.md)
+
+## Services
+
+<div class="service-card">
+  <div class="service-card__body">
+    <p class="service-card__eyebrow">Remote access</p>
+    <h3>Guacamole Service</h3>
+    <p>Open browser-based RDP and SSH sessions from the same domain as this portal.</p>
+  </div>
+  <div class="service-card__action">
+    {{ guac_portal_button('Open Guacamole', 'primary') }}
+    <a href="guacamole-access.md" class="md-button md-button--tiny md-button--secondary">View docs</a>
+  </div>
+</div>
 
 !!! note "Manual Rebuild MkDocs after pulling changes (normally not required)"
     Use these commands when permissions break the build or after updating the repo:

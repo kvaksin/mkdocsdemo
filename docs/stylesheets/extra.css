@@ -111,3 +111,53 @@
 [data-md-color-scheme="slate"] .md-icon {
   color: rgba(255, 255, 255, 0.87);
 }
+
+/* ---------------------------------------------------------
+   SERVICE CALLOUTS
+--------------------------------------------------------- */
+
+.service-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 14px;
+  background:
+    linear-gradient(135deg, rgba(0, 159, 227, 0.08), rgba(0, 58, 112, 0.04)),
+    var(--md-default-bg-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.service-card__body h3 {
+  margin: 0.15rem 0 0.35rem;
+}
+
+.service-card__body p {
+  margin: 0;
+}
+
+.service-card__eyebrow {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-accent-fg-color);
+}
+
+.service-card__action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .service-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
