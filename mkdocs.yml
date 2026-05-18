@@ -79,6 +79,7 @@ nav:
       - Overview: cc/index.md
       - PCCE 15.0 2K: cc/pcce.md
       - Server Credentials: cc/serverdata.md
+  - Guacamole: guacamole.md
   - Verint WFO: verint.md
   - Logepal: logepal.md
 
