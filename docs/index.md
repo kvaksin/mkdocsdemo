@@ -5,7 +5,7 @@ General overview of the Contact Center documentation.
 ## Components
 
 - [Packaged Contact Center Enterprise (PCCE) 15.0 2K](cc/index.md)
-- [Guacamole](guacamole.md)
+- [Guacamole Access](guacamole-access.md)
 - [Verint WFO](verint.md)
 - [Logepal](logepal.md)
 
