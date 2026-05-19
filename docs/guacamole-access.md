@@ -12,3 +12,4 @@ The server details page uses Guacamole session buttons that open in a new browse
 
 Guacamole should be published at `/guacamole/` behind a reverse proxy on the same domain.
 If you change the mount path, update `GUAC_BASE_PATH` in `docs/overrides/macros/mkdocs_macros.py`.
+On Vercel, this route is proxied to the Guacamole backend through `vercel.json` rewrites.
