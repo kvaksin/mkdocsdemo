@@ -21,7 +21,7 @@ General overview of the Contact Center documentation.
     
     /opt/docs/venv/bin/mkdocs build
     
-
+<!--
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   const server = window.location.hostname;
@@ -60,3 +60,4 @@ function showBanner(text, bg, color) {
   setTimeout(() => msg.remove(), 5000);
 }
 </script>
+-->
