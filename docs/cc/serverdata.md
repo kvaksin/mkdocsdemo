@@ -41,6 +41,8 @@ The following table lists the server details for the Cisco Packaged Contact Cent
 | 19 | Reverse Proxy B | NIC1 - PCCEPublic<br>NIC2 - External DNS | {{ IP19 }} | | <div class="cell-flex"><span class="credentials-text">{{ADUSER}}</span><button class="icon-btn copy-btn" data-copy="{{ADUSER}}"><span class="md-icon">content_copy</span></button></div> | <div class="cell-flex"><span class="password" data-password="{{ADPASS}}">••••••••</span><button class="icon-btn copy-pass" data-copy="{{ADPASS}}"><span class="md-icon">content_copy</span></button><button class="icon-btn toggle-pass"><span class="md-icon">visibility</span></button></div> | {{ guac_button('pcce-ssh-19', 'SSH', 'secondary') }} | Reverse Proxy (RedHat) |
 
 
+
+
 <a href="https://www.cisco.com"
    target="_blank"
    rel="noopener noreferrer"
