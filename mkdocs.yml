@@ -64,7 +64,7 @@ theme:
 #   REPOSITORY INTEGRATION
 #   Enables "Edit this page" button
 # ==========================================
-repo_url: https://github.com/kvaksin/mkdocsdemo.git   # GitHub repository
+repo_url: https://github.com/kvaksin/mkdocsdemo   # GitHub repository
 edit_uri: edit/main/docs/                             # Path to docs folder in repo
 
 # Directory where Markdown files are stored
