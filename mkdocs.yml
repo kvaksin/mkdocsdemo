@@ -1,48 +1,52 @@
+# ==========================================
+#   BASIC SITE CONFIGURATION
+# ==========================================
 site_name: PCCE Documentation
 
+# ==========================================
+#   THEME CONFIGURATION (Material for MkDocs)
+# ==========================================
 theme:
   name: material
+
+  # Logo displayed in the header
   logo: images/activeo.png
 
-# ===========================
-#   REPOSITORY INTEGRATION
-#   (Required for "Edit this page")
-# ===========================
-repo_url: https://github.com/kvaksin/mkdocsdemo.git     # Your Git repository
-edit_uri: edit/main/docs/                             # Path to docs folder in repo
-
-# Example:
-# If your docs are in /docs and branch is "main":
-# edit_uri: edit/main/docs/
-#
-# If branch is "master":
-# edit_uri: edit/master/docs/
-
+  # Favicon for browser tabs
   favicon: images/favicon.png
+
+  # Directory for custom HTML/Jinja overrides
   custom_dir: docs/overrides
+
+  # Icons for repo link and site logo
   icon:
     repo: fontawesome/brands/github
     logo: material/library
+
+  # Typography settings
   font:
     text: Roboto
     code: Roboto Mono
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.sections
-    - navigation.indexes
-    - navigation.footer
-    - navigation.sidebar
-    - navigation.sidebar.sticky
-    - navigation.prune
-    - toc.integrate
-    - content.code.copy
-    - content.action.edit
 
+  # Enable Material features
+  features:
+    - navigation.instant          # Instant loading without full page refresh
+    - navigation.tracking         # Highlight active section in sidebar
+    - navigation.sections         # Group pages into sections
+    - navigation.indexes          # Allow index.md inside folders
+    - navigation.footer           # Add previous/next links at bottom
+    - navigation.sidebar          # Enable sidebar navigation
+    - navigation.sidebar.sticky   # Keep sidebar fixed while scrolling
+    - navigation.prune            # Hide empty navigation groups
+    - toc.integrate               # Merge TOC into sidebar
+    - content.code.copy           # Add copy button to code blocks
+    - content.action.edit         # Show "Edit this page" button
+
+  # Light and dark mode palettes
   palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
-      primary: custom
+      primary: custom             # Uses your custom CSS colors
       accent: custom
       toggle:
         icon: material/weather-night
@@ -55,38 +59,59 @@ edit_uri: edit/main/docs/                             # Path to docs folder in r
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  
+
+# ==========================================
+#   REPOSITORY INTEGRATION
+#   Enables "Edit this page" button
+# ==========================================
+repo_url: https://github.com/kvaksin/mkdocsdemo.git   # GitHub repository
+edit_uri: edit/main/docs/                             # Path to docs folder in repo
+
+# Directory where Markdown files are stored
 docs_dir: docs
 
-
+# ==========================================
+#   MARKDOWN EXTENSIONS
+# ==========================================
 markdown_extensions:
   - toc:
-      permalink: true
-  - meta
-  - admonition
-  - codehilite
-  - footnotes
-  - tables
-  - attr_list
-  - md_in_html
+      permalink: true           # Adds link icon to headings
+  - meta                        # Allows YAML front-matter in Markdown
+  - admonition                  # Enables notes, warnings, tips
+  - codehilite                  # Syntax highlighting
+  - footnotes                   # Markdown footnotes support
+  - tables                      # Extended table formatting
+  - attr_list                   # Add attributes to Markdown elements
+  - md_in_html                  # Allow Markdown inside HTML blocks
 
+# ==========================================
+#   JAVASCRIPT INJECTIONS
+# ==========================================
 extra_javascript:
-  - javascripts/backtotop.js
-  - javascripts/credentials.js
+  - javascripts/backtotop.js     # Back-to-top button
+  - javascripts/credentials.js   # Custom script for credentials page
 
+# ==========================================
+#   CUSTOM CSS
+# ==========================================
 extra_css:
-  - stylesheets/disable-right-toc.css
-  - stylesheets/backtotop.css
-  - stylesheets/activeo-colors.css
-  - stylesheets/sidebar-collapse.css
-  - stylesheets/buttons.css
-  - stylesheets/fullwidth.css
-  - stylesheets/extra.css
+  - stylesheets/disable-right-toc.css   # Hide right-side TOC
+  - stylesheets/backtotop.css           # Styling for back-to-top button
+  - stylesheets/activeo-colors.css      # Custom color palette
+  - stylesheets/sidebar-collapse.css    # Collapsible sidebar behavior
+  - stylesheets/buttons.css             # Custom button styles
+  - stylesheets/fullwidth.css           # Full-width content layouts
+  - stylesheets/extra.css               # Misc additional styling
 
+# ==========================================
+#   EXTRA SITE VARIABLES
+# ==========================================
 extra:
   footer: "Activeo – Delivering Superior Customer Experience"
 
-
+# ==========================================
+#   NAVIGATION STRUCTURE
+# ==========================================
 nav:
   - Home: index.md
   - Contact Center:
@@ -96,7 +121,10 @@ nav:
   - Verint WFO: verint.md
   - Logepal: logepal.md
 
+# ==========================================
+#   PLUGINS
+# ==========================================
 plugins:
-  - search
+  - search                       # Built-in search engine
   - macros:
-      module_name: docs/overrides/macros/mkdocs_macros
+      module_name: docs/overrides/macros/mkdocs_macros   # Custom macros
