@@ -1,9 +1,23 @@
 site_name: PCCE Documentation
 
-
 theme:
   name: material
   logo: images/activeo.png
+
+# ===========================
+#   REPOSITORY INTEGRATION
+#   (Required for "Edit this page")
+# ===========================
+repo_url: https://github.com/kvaksin/mkdocsdemo.git     # Your Git repository
+edit_uri: edit/main/docs/                             # Path to docs folder in repo
+
+# Example:
+# If your docs are in /docs and branch is "main":
+# edit_uri: edit/main/docs/
+#
+# If branch is "master":
+# edit_uri: edit/master/docs/
+
   favicon: images/favicon.png
   custom_dir: docs/overrides
   icon:
