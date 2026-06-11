@@ -85,6 +85,9 @@ markdown_extensions:
   - tables                      # Extended table formatting
   - attr_list                   # Add attributes to Markdown elements
   - md_in_html                  # Allow Markdown inside HTML blocks
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 
 # ==========================================
 #   JAVASCRIPT INJECTIONS
