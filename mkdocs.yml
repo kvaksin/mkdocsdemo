@@ -133,4 +133,4 @@ nav:
 plugins:
   - search                       # Built-in search engine
   - macros:
-      module_name: macros.mkdocs_macros   # Custom macros
+       include_dir: macros   # Custom macros
