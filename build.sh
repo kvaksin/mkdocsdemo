@@ -1,4 +1,8 @@
 #!/bin/bash
 set -e
+
+# Install dependencies
 uv sync
-uv run mkdocs build -d public --clean
+
+# Build MkDocs site
+uv run mkdocs build --clean --site-dir public
