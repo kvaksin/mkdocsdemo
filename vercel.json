@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
+  "pythonVersion": "3.12",
   "buildCommand": "uv sync && uv run mkdocs build -d public --clean",
   "outputDirectory": "public"
 }
