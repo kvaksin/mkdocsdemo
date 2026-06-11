@@ -41,7 +41,7 @@ theme:
     - toc.integrate               # Merge TOC into sidebar
     - content.code.copy           # Add copy button to code blocks
     - content.action.edit         # Show "Edit this page" button
-    - content.code.mermaid                         # Mermaid diagram support
+    - content.code.mermaid        # Mermaid diagram support
 
 
   # Light and dark mode palettes
