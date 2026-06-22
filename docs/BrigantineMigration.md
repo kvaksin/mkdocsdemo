@@ -21,9 +21,6 @@ date: 2026-06-23
 
 This document describes the complete migration process for moving Brigentine users from Cisco Unified CM (CUCM) to Webex Calling while ensuring uninterrupted service during coexistence.
 
-!!! note
-    This document uses **Material for MkDocs callouts** for clarity and emphasis.
-
 ### Key principles
 
 - All DIDs are ported into Webex Calling.
@@ -214,9 +211,6 @@ Using UC Migration Wizard:
 - **Migrated users:** PSTN → Webex → Webex device  
 - **Unmigrated users:** PSTN → Webex → CUBE → CUCM  
 - CFUR still protects internal CUCM calls  
-
-!!! tip
-    Migrate **10–20% of users first** as a pilot before scaling.
 
 ---
 
