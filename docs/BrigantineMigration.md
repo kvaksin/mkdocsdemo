@@ -1,7 +1,6 @@
 ---
 title: "Brigentine Webex Calling Migration Plan"
 summary: "End‑to‑end migration plan for transitioning Brigentine users from CUCM to Webex Calling with Dial Plan coexistence and CFUR routing."
-description: "Detailed migration workflow including Dial Plan setup, CFUR configuration, UC Migration Wizard preparation, number porting, device migration, validation, and CUCM decommissioning."
 tags:
   - webex-calling
   - cucm
