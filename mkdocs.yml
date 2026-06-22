@@ -119,6 +119,7 @@ extra:
 # ==========================================
 nav:
   - Home: index.md
+  - Brigantine Migration Plan: BrigantineMigration.md
   - Contact Center:
       - Overview: cc/index.md
       - PCCE 15.0 2K: cc/pcce.md

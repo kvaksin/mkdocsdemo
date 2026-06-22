@@ -1,0 +1,75 @@
+/* ---------------------------------------------------------
+   Collapse / Expand Behavior
+   --------------------------------------------------------- */
+
+/* Hide inactive sections completely */
+.md-nav__item--nested:not(.md-nav__item--active) > nav {
+  display: none;
+}
+
+/* Show active section */
+.md-nav__item--nested.md-nav__item--active > nav {
+  display: block;
+}
+
+/* ---------------------------------------------------------
+   Replace arrow with + / -
+   --------------------------------------------------------- */
+
+/* Default collapsed state: "+" */
+.md-nav__item--nested > .md-nav__link::after {
+  content: "+";
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 8px;
+  transition: transform 0.25s ease, content 0.25s ease;
+}
+
+/* Expanded state: "-" */
+.md-nav__item--nested.md-nav__item--active > .md-nav__link::after {
+  content: "-";
+}
+
+/* Keep + / - aligned to the right, but preserve indentation */
+.md-nav__item--nested > .md-nav__link {
+  display: grid;
+  grid-template-columns: 1fr auto; /* text | +/- */
+  align-items: center;
+}
+
+/* ---------------------------------------------------------
+   Proper indentation + separator line (GitHub style)
+   --------------------------------------------------------- */
+
+/* Indent children + add small vertical separator line */
+.md-nav__item--nested > nav {
+  margin-left: 1.25rem;                 /* indentation */
+  padding-left: 0.75rem;                /* spacing between line and text */
+  border-left: 1px solid rgba(0,0,0,0.15); /* subtle separator line */
+}
+
+/* Deeper nested levels indent more */
+.md-nav__item--nested > nav > .md-nav__item--nested > nav {
+  margin-left: 2rem;
+  border-left: 1px solid rgba(0,0,0,0.15);
+  padding-left: 0.75rem;
+}
+/* ---------------------------------------------------------
+   Vertical separator between sidebar and content (full height)
+   --------------------------------------------------------- */
+
+/* Ensure sidebar spans full viewport height */
+.md-sidebar--primary {
+  border-right: 1px solid rgba(0,0,0,0.15);
+  height: 100vh;                 /* full screen height */
+  position: sticky;              /* keeps it fixed while scrolling */
+  top: 0;                        /* align to top of viewport */
+  background-color: var(--md-default-bg-color);
+  z-index: 2;                    /* stay above content */
+}
+
+/* Dark mode stronger separator */
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+  border-right: 1px solid rgba(255,255,255,0.12);
+  background-color: var(--md-default-bg-color);
+}

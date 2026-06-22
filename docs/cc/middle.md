@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
 
     %% Styles
@@ -76,6 +77,4 @@ flowchart LR
 
     MW -->|s33| Agent
     Agent -->|s34| MW
-
-
-    
+```
