@@ -1,7 +1,7 @@
 # ==========================================
 #   BASIC SITE CONFIGURATION
 # ==========================================
-site_name: PCCE Documentation
+site_name: Activeo Documentation Portal
 
 # ==========================================
 #   THEME CONFIGURATION (Material for MkDocs)
