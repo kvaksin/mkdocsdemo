@@ -124,8 +124,7 @@ nav:
   - Administration:
     - Overview: admingiudes/index.md
     - Voicemail: admingiudes/voicemail.md
-    - Summary Voicemail page: admingiudes/voicemail.md
-
+    
 #  - Contact Center:
 #      - Overview: cc/index.md
 #      - PCCE 15.0 2K: cc/pcce.md

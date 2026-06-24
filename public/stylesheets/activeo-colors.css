@@ -1,0 +1,42 @@
+/* ---------------------------------------------------------
+   Activeo Brand Theme for MkDocs Material
+   --------------------------------------------------------- */
+
+/* Light mode */
+:root {
+  /* Primary header/nav color */
+  --md-primary-fg-color: #003A70;
+
+  /* Lighter variant for hover states */
+  --md-primary-fg-color--light: #009FE3;
+
+  /* Darker variant for contrast */
+  --md-primary-fg-color--dark: #002244;
+
+  /* Accent color for links, highlights, buttons */
+  --md-accent-fg-color: #009FE3;
+
+  /* Optional: background tint */
+  --md-default-bg-color: #FFFFFF;
+}
+
+.md-footer {
+    background: #002b5c;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  /* Use lighter blue for readability on dark background */
+  --md-primary-fg-color: #009FE3;
+  --md-primary-fg-color--light: #00B7FF;
+  --md-primary-fg-color--dark: #003A70;
+
+  --md-accent-fg-color: #00B7FF;
+
+  /* Optional: dark background */
+  --md-default-bg-color: #0A0A0A;
+}
