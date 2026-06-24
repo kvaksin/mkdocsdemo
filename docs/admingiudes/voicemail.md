@@ -11,164 +11,190 @@ authors:
   - Konstantin Vaksin
 ---
 
-# Webex Calling – Voicemail Admin Guide
 
-This document provides a complete administrator workflow for managing voicemail in Webex Calling, including:
+# Webex Calling – Voicemail Administration Guide
 
-- Resetting voicemail PINs  
-- Enabling voicemail email notifications  
-- User, Shared, and Workspace voicemail configuration  
-
----
-
-## !!! note "Scope"
-This guide applies to **Webex Calling (Multi‑Tenant)** using **Control Hub**.
+This guide is optimized for **side‑by‑side viewing** with **no scrolling**.  
+Left column = **Steps**.  
+Right column = **Details / Notes / Results**.
 
 ---
 
-# 1. Reset Voicemail PIN (Admin Side)
+# 1. Reset Voicemail PIN
 
-Admins cannot view existing PINs — only **reset** them.  
-PIN resets are performed in **Control Hub**.
+## User Voicemail PIN Reset
+
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **admin.webex.com → Users**
+    2. Select the user
+    3. Open **Calling**
+    4. Scroll to **Voicemail**
+    5. Click **Reset Voicemail PIN**
+    6. Choose:
+       - Auto‑email temporary PIN  
+       - Or set PIN manually
+
+-   ### **Details**
+    - Admins **cannot view** existing PINs  
+    - User must **change PIN at next login**  
+    - Works for all Webex Calling Professional users  
+    - Recommended: let system generate temporary PIN  
+
+</div>
 
 ---
 
-## 1.1 Reset Voicemail PIN for a User
-
-### Steps
-1. Go to **https://admin.webex.com → Management → Users**  
-2. Select the user  
-3. Open the **Calling** tab  
-4. Scroll to **Voicemail**  
-5. Click **Reset Voicemail PIN**  
-6. Choose:
-   - Send temporary PIN to user  
-   - Or set a temporary PIN manually  
-
-### Result
-User is forced to create a new PIN at next voicemail login.
-
----
-
-## 1.2 Reset Voicemail PIN for Shared Voicemail  
+## Shared Voicemail PIN Reset  
 *(Call Queue, Hunt Group, Auto Attendant)*
 
-### Steps
-1. Go to **Services → Calling → Features**  
-2. Select:
-   - **Call Queue**, or  
-   - **Hunt Group**, or  
-   - **Auto Attendant**  
-3. Open the feature  
-4. Go to **Voicemail**  
-5. Click **Reset Voicemail PIN**
+<div class="grid cards" markdown>
 
-### Result
-Admin receives a temporary PIN to distribute to the team.
+-   ### **Steps**
+    1. Go to **Services → Calling → Features**
+    2. Select **Call Queue / Hunt Group / Auto Attendant**
+    3. Open the feature
+    4. Go to **Voicemail**
+    5. Click **Reset Voicemail PIN**
+
+-   ### **Details**
+    - Shared mailbox PIN is used by multiple agents  
+    - Admin receives temporary PIN  
+    - Best practice: store PIN in team password vault  
+    - Email notifications recommended for shared mailboxes  
+
+</div>
 
 ---
 
-## 1.3 Reset Voicemail PIN for a Workspace
+## Workspace Voicemail PIN Reset
 
-### Steps
-1. Go to **Management → Workspaces**  
-2. Select the workspace  
-3. Open **Calling**  
-4. Scroll to **Voicemail**  
-5. Click **Reset Voicemail PIN**
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **Management → Workspaces**
+    2. Select workspace
+    3. Open **Calling**
+    4. Scroll to **Voicemail**
+    5. Click **Reset Voicemail PIN**
+
+-   ### **Details**
+    - Used for meeting rooms, huddle spaces, devices  
+    - PIN is required only if voicemail is accessed from device  
+    - Email notifications can be sent to room mailbox  
+
+</div>
 
 ---
 
 # 2. Enable Voicemail Email Notifications
 
-Webex Calling supports:
-- Email notification  
-- Email with WAV attachment  
-- Optional transcription  
+## User Voicemail Email Delivery
+
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **Users → Calling → Voicemail**
+    2. Enable **Email a copy of voicemail**
+    3. Enter user email
+    4. Choose:
+       - Email only  
+       - Email + WAV  
+       - Delete after sending (optional)
+
+-   ### **Details**
+    - WAV attachment = 8–30 KB per message  
+    - Transcription can be enabled  
+    - “Delete after sending” reduces mailbox storage  
+    - Recommended for executives and mobile workers  
+
+</div>
 
 ---
 
-## 2.1 Enable Email Notification for a User
+## Shared Voicemail Email Delivery  
+*(Queue / Hunt / AA)*
 
-### Steps
-1. Go to **Users → Select User**  
-2. Open **Calling**  
-3. Scroll to **Voicemail**  
-4. Enable:
-   - **Email a copy of voicemail**  
-   - Enter email address  
-   - Choose:
-     - Email only  
-     - Email with WAV attachment  
-     - Delete after sending (optional)  
+<div class="grid cards" markdown>
 
----
+-   ### **Steps**
+    1. Go to **Services → Calling → Features**
+    2. Select the feature
+    3. Open **Voicemail**
+    4. Enable **Email a copy of voicemail**
+    5. Enter shared mailbox or distribution list
 
-## 2.2 Enable Email Notification for Shared Voicemail  
-*(Call Queue, Hunt Group, Auto Attendant)*
+-   ### **Details**
+    - Best practice: use **distribution list**  
+    - Ensures multiple agents receive voicemail  
+    - WAV attachment recommended for support teams  
+    - Works even if no one checks voicemail via phone  
 
-### Steps
-1. Go to **Services → Calling → Features**  
-2. Select the feature  
-3. Go to **Voicemail**  
-4. Enable:
-   - **Email a copy of voicemail**  
-   - Enter shared mailbox or distribution list  
-   - Choose attachment option  
+</div>
 
 ---
 
-## 2.3 Enable Email Notification for Workspace Voicemail
+## Workspace Voicemail Email Delivery
 
-### Steps
-1. Go to **Management → Workspaces**  
-2. Select workspace  
-3. Open **Calling**  
-4. Scroll to **Voicemail**  
-5. Enable:
-   - **Email a copy of voicemail**  
-   - Enter room or team email  
-   - Choose attachment option  
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **Workspaces → Calling → Voicemail**
+    2. Enable **Email a copy of voicemail**
+    3. Enter room or team email
+    4. Choose attachment option
+
+-   ### **Details**
+    - Ideal for meeting rooms with shared responsibility  
+    - Room mailbox receives voicemail alerts  
+    - WAV attachment optional  
+
+</div>
 
 ---
 
 # 3. Summary Table
 
-| Task | User | Shared (Queue/Hunt/AA) | Workspace |
-|------|------|-------------------------|-----------|
-| Reset voicemail PIN | Users → Calling → Voicemail | Features → Voicemail | Workspaces → Calling |
-| Enable email notifications | Users → Calling → Voicemail | Features → Voicemail | Workspaces → Calling |
-| Supports transcription | Yes | Yes | Yes |
+| Task | User | Shared | Workspace |
+|------|------|--------|-----------|
+| Reset PIN | Users → Calling | Features → Voicemail | Workspaces → Calling |
+| Email notifications | Users → Calling | Features → Voicemail | Workspaces → Calling |
 | WAV attachment | Yes | Yes | Yes |
-
----
-
-## !!! tip "Best Practice"
-Use **distribution lists** for shared voicemail email delivery to avoid individual mailbox dependency.
+| Transcription | Yes | Yes | Yes |
 
 ---
 
 # 4. Engineer Checklist
 
-- [ ] Confirm voicemail is enabled for the user/feature/workspace  
-- [ ] Reset PIN and provide temporary code if needed  
-- [ ] Enable email notifications  
-- [ ] Validate email address or distribution list  
-- [ ] Test voicemail delivery  
-- [ ] Document configuration in customer records  
+<div class="grid cards" markdown>
+
+-   ### **Configuration**
+    - [ ] Voicemail enabled  
+    - [ ] PIN reset  
+    - [ ] Email notifications enabled  
+    - [ ] Distribution list validated  
+
+-   ### **Testing**
+    - [ ] Leave test voicemail  
+    - [ ] Confirm email delivery  
+    - [ ] Confirm WAV attachment  
+    - [ ] Document configuration  
+
+</div>
 
 ---
 
-# 5. Mermaid Diagram (Voicemail Flow)
+# 5. Voicemail Flow Diagram
 
 ```mermaid
 flowchart TD
-    A[Caller Leaves Voicemail] --> B[Webex Calling Voicemail Server]
-    B --> C{Mailbox Type?}
-    C --> D[User Mailbox]
-    C --> E[Shared Mailbox (Queue/Hunt/AA)]
-    C --> F[Workspace Mailbox]
-    D --> G[Email Notification (Optional)]
+    A[Caller Leaves Voicemail] --> B[Webex Voicemail Server]
+    B --> C{Mailbox Type}
+    C --> D[User]
+    C --> E[Shared Queue/Hunt/AA]
+    C --> F[Workspace]
+    D --> G[Email Notification]
     E --> G
     F --> G
-    G --> H[Admin or User Receives Email/WAV]
+    G --> H[Recipient Receives Email/WAV]
