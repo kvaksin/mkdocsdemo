@@ -35,10 +35,13 @@
   overflow-x: auto;
   display: block;
   width: 100%;
+  max-width: 100%;
 }
 
 .md-typeset__table table {
-  min-width: 1400px;
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
 }
 
 .md-typeset table.md-table th:first-child,
@@ -64,6 +67,7 @@
   vertical-align: middle;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
   overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .md-typeset table.md-table thead th {
