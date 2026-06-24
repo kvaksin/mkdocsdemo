@@ -120,13 +120,14 @@ extra:
 nav:
   - Home: index.md
   - Brigantine Migration Plan: BrigantineMigration.md
-  - Contact Center:
-      - Overview: cc/index.md
-      - PCCE 15.0 2K: cc/pcce.md
-      - Server Credentials: cc/serverdata.md
-      - Middleware: cc/middle.md
-  - Verint WFO: verint.md
-  - Logepal: logepal.md
+  - Brigantine DID porting: fg/brigantine/portingnumbers.md 
+#  - Contact Center:
+#      - Overview: cc/index.md
+#      - PCCE 15.0 2K: cc/pcce.md
+#      - Server Credentials: cc/serverdata.md
+#      - Middleware: cc/middle.md
+#  - Verint WFO: verint.md
+#  - Logepal: logepal.md
 
 # ==========================================
 #   PLUGINS
