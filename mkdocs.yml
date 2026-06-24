@@ -121,7 +121,7 @@ nav:
   - Home: index.md
   - Brigantine Migration Plan: BrigantineMigration.md
   - Brigantine DID porting: fg/brigantine/portingnumbers.md 
-  Administration:
+  - Administration:
     - Overview: admin/index.md
     - Voicemail: admin/voicemail.md
     - Summary Voicemail page: admin/voicemail.html
