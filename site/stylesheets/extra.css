@@ -31,18 +31,20 @@
    Table Layout
    --------------------------------------------------------- */
 
-.md-typeset__table {
-  overflow-x: auto;
-  display: block;
-  width: 100%;
+html .md-typeset .md-typeset__table {
+  display: inline-block;
+  width: auto;
   max-width: 100%;
+  overflow-x: auto;
+  vertical-align: top;
 }
 
-.md-typeset__table table {
-  display: inline-table;
+html .md-typeset .md-typeset__table > table {
+  display: table;
   width: max-content;
   min-width: 100%;
   table-layout: auto;
+  margin: 0;
 }
 
 .md-typeset table.md-table th:first-child,
