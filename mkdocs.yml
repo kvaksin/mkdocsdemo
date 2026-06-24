@@ -122,9 +122,9 @@ nav:
   - Brigantine Migration Plan: BrigantineMigration.md
   - Brigantine DID porting: fg/brigantine/portingnumbers.md 
   - Administration:
-    - Overview: admin/index.md
-    - Voicemail: admin/voicemail.md
-    - Summary Voicemail page: admin/voicemail.html
+    - Overview: admingiudes/index.md
+    - Voicemail: admingiudes/voicemail.md
+    - Summary Voicemail page: admingiudes/voicemail.html
 
 #  - Contact Center:
 #      - Overview: cc/index.md
