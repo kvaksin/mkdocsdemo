@@ -722,17 +722,18 @@ Right column = <strong>Details / Notes / Results</strong>.</p>
 </div>
 <hr />
 <h1 id="5-voicemail-flow-diagram">5. Voicemail Flow Diagram<a class="headerlink" href="#5-voicemail-flow-diagram" title="Permanent link">&para;</a></h1>
-<div class="highlight"><pre><span></span><code>flowchart TD
-    A[Caller Leaves Voicemail] --&gt; B[Webex Voicemail Server]
-    B --&gt; C{Mailbox Type}
-    C --&gt; D[User]
-    C --&gt; E[Shared Queue/Hunt/AA]
-    C --&gt; F[Workspace]
-    D --&gt; G[Email Notification]
-    E --&gt; G
-    F --&gt; G
-    G --&gt; H[Recipient Receives Email/WAV]
-</code></pre></div>
+<div class="mermaid">
+flowchart TD
+    A[Caller Leaves Voicemail] --> B[Webex Voicemail Server]
+    B --> C{Mailbox Type}
+    C --> D[User]
+    C --> E[Shared Queue/Hunt/AA]
+    C --> F[Workspace]
+    D --> G[Email Notification]
+    E --> G
+    F --> G
+    G --> H[Recipient Receives Email/WAV]
+</div>
 
 
 

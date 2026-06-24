@@ -187,7 +187,7 @@ Right column = **Details / Notes / Results**.
 
 # 5. Voicemail Flow Diagram
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A[Caller Leaves Voicemail] --> B[Webex Voicemail Server]
     B --> C{Mailbox Type}
@@ -198,4 +198,4 @@ flowchart TD
     E --> G
     F --> G
     G --> H[Recipient Receives Email/WAV]
-```
+</div>

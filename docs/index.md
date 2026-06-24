@@ -55,7 +55,7 @@ This site provides structured, engineer‑ready documentation for **Webex Callin
 
 ## 🧭 Quick Navigation Map
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     A[Documentation Portal] --> B[Webex Calling]
     A --> C[Infrastructure]
@@ -73,4 +73,4 @@ flowchart TD
 
     E --> E1[SOPs]
     E --> E2[Access Control]
-```
+</div>

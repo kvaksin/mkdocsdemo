@@ -479,7 +479,8 @@
 
   <h1>Middle</h1>
 
-<div class="highlight"><pre><span></span><code>flowchart LR
+<div class="mermaid">
+flowchart LR
 
     %% Styles
     classDef system fill:#f0f0f0,stroke:#555,stroke-width:1px,border-radius:6px;
@@ -491,73 +492,73 @@
     classDef ai fill:#e8eaf6,stroke:#3949ab,stroke-width:1px,border-radius:6px;
 
     %% Airline Systems
-    PNR[&quot;Airline PNR System&lt;br&gt;Bookings / PNR / Tickets&quot;]:::ops
-    OPS[&quot;Flight Ops System&lt;br&gt;Delays / Cancellations / Gate Changes&quot;]:::ops
-    BAG[&quot;Baggage System&lt;br&gt;Lost / Delayed / Damaged&quot;]:::ops
-    LOY[&quot;Loyalty System&lt;br&gt;Tiers / Miles / Benefits&quot;]:::ops
-    PAY[&quot;Payment &amp; Refund System&lt;br&gt;Payments / Refunds / Chargebacks&quot;]:::ops
+    PNR["Airline PNR System<br>Bookings / PNR / Tickets"]:::ops
+    OPS["Flight Ops System<br>Delays / Cancellations / Gate Changes"]:::ops
+    BAG["Baggage System<br>Lost / Delayed / Damaged"]:::ops
+    LOY["Loyalty System<br>Tiers / Miles / Benefits"]:::ops
+    PAY["Payment & Refund System<br>Payments / Refunds / Chargebacks"]:::ops
 
     %% PCCE Layer
-    PCCE[&quot;Cisco PCCE&lt;br&gt;Routing / CVP / ECC&quot;]:::system
-    Finesse[&quot;Cisco Finesse&lt;br&gt;Agent State / Dialog Events&quot;]:::system
-    CVP[&quot;Cisco CVP&lt;br&gt;IVR Steps / ECC Variables&quot;]:::system
+    PCCE["Cisco PCCE<br>Routing / CVP / ECC"]:::system
+    Finesse["Cisco Finesse<br>Agent State / Dialog Events"]:::system
+    CVP["Cisco CVP<br>IVR Steps / ECC Variables"]:::system
 
     %% Middleware
-    MW[&quot;Debian Middleware&lt;br&gt;&lt;br&gt;
-        • Customer Journey API&lt;br&gt;
-        • Passenger Resolver (email/mobile/PNR/loyalty)&lt;br&gt;
-        • Activity Store (last 10)&lt;br&gt;
-        • Dynamics Connector (CRM)&lt;br&gt;
-        • Verint Connector (recordings)&lt;br&gt;
-        • Airline Connectors (PNR / Ops / Baggage / Loyalty / Payments)&lt;br&gt;
-        • AI Engine (summaries, sentiment, next best action)&lt;br&gt;
-        • WebSocket Push&lt;br&gt;
-        • Redis Cache&lt;br&gt;
-        • PostgreSQL DB&quot;]:::middleware
+    MW["Debian Middleware<br><br>
+        • Customer Journey API<br>
+        • Passenger Resolver (email/mobile/PNR/loyalty)<br>
+        • Activity Store (last 10)<br>
+        • Dynamics Connector (CRM)<br>
+        • Verint Connector (recordings)<br>
+        • Airline Connectors (PNR / Ops / Baggage / Loyalty / Payments)<br>
+        • AI Engine (summaries, sentiment, next best action)<br>
+        • WebSocket Push<br>
+        • Redis Cache<br>
+        • PostgreSQL DB"]:::middleware
 
     %% CRM
-    D365[&quot;Microsoft Dynamics 365&lt;br&gt;Cases / Activities / Customer Data&quot;]:::crm
+    D365["Microsoft Dynamics 365<br>Cases / Activities / Customer Data"]:::crm
 
     %% Verint
-    Verint[&quot;Verint Platform&lt;br&gt;Recordings / QM / WFM / Analytics&quot;]:::recorder
+    Verint["Verint Platform<br>Recordings / QM / WFM / Analytics"]:::recorder
 
     %% AI
-    AI[&quot;AI Engine&lt;br&gt;Summaries / Sentiment / Next Best Action&lt;br&gt;Customer Story Builder&quot;]:::ai
+    AI["AI Engine<br>Summaries / Sentiment / Next Best Action<br>Customer Story Builder"]:::ai
 
     %% Agent Desktop
-    Agent[&quot;Finesse Agent Desktop&lt;br&gt;
-           • Passenger Profile&lt;br&gt;
-           • Flight Status&lt;br&gt;
-           • Loyalty Tier&lt;br&gt;
-           • Baggage Cases&lt;br&gt;
-           • Payments/Refunds&lt;br&gt;
-           • Last 10 Activities&lt;br&gt;
-           • Last 5 CRM Activities&lt;br&gt;
-           • Last 5 Verint Calls&lt;br&gt;
-           • IVR Journey&lt;br&gt;
-           • AI Insights&quot;]:::desktop
+    Agent["Finesse Agent Desktop<br>
+           • Passenger Profile<br>
+           • Flight Status<br>
+           • Loyalty Tier<br>
+           • Baggage Cases<br>
+           • Payments/Refunds<br>
+           • Last 10 Activities<br>
+           • Last 5 CRM Activities<br>
+           • Last 5 Verint Calls<br>
+           • IVR Journey<br>
+           • AI Insights"]:::desktop
 
     %% Connections
-    PCCE --&gt; Finesse
-    PCCE --&gt; CVP
+    PCCE --> Finesse
+    PCCE --> CVP
 
-    Finesse --&gt;|s23| MW
-    CVP --&gt;|s24| MW
+    Finesse -->|s23| MW
+    CVP -->|s24| MW
 
-    MW --&gt;|s25| D365
-    MW --&gt;|s26| Verint
+    MW -->|s25| D365
+    MW -->|s26| Verint
 
-    MW --&gt;|s27| PNR
-    MW --&gt;|s28| OPS
-    MW --&gt;|s29| BAG
-    MW --&gt;|s30| LOY
-    MW --&gt;|s31| PAY
+    MW -->|s27| PNR
+    MW -->|s28| OPS
+    MW -->|s29| BAG
+    MW -->|s30| LOY
+    MW -->|s31| PAY
 
-    MW --&gt;|s32| AI
+    MW -->|s32| AI
 
-    MW --&gt;|s33| Agent
-    Agent --&gt;|s34| MW
-</code></pre></div>
+    MW -->|s33| Agent
+    Agent -->|s34| MW
+</div>
 
 
 
