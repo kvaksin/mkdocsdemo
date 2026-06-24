@@ -39,9 +39,10 @@
 }
 
 .md-typeset__table table {
-  width: 100%;
-  min-width: 0;
-  table-layout: fixed;
+  display: inline-table;
+  width: max-content;
+  min-width: 100%;
+  table-layout: auto;
 }
 
 .md-typeset table.md-table th:first-child,
@@ -66,8 +67,7 @@
   padding: 6px 12px;
   vertical-align: middle;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  overflow-wrap: break-word;
-  word-break: break-word;
+  white-space: nowrap;
 }
 
 .md-typeset table.md-table thead th {
