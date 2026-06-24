@@ -1,63 +1,75 @@
-# Contact Center Documentation
-## Overview
-General overview of the Contact Center documentation.
+---
+title: "Administration Documentation Portal"
+description: "Central hub for Webex Calling, Infrastructure, Reporting, and Operational documentation."
+hide:
+  - toc
+---
 
-## Components!
+# Administration Documentation Portal
 
-- [Packaged Contact Center Enterprise (PCCE) 15.0 2K](cc/index.md)
-- [Verint WFO](verint.md)
-- [Logepal](logepal.md)
+Welcome to the unified administration portal.  
+This site provides structured, engineer‑ready documentation for **Webex Calling**, **Voicemail**, **Infrastructure**, **Automation**, and **Operational Procedures**.
 
-!!! note "Manual Rebuild MkDocs after pulling changes (normally not required)"
-    Use these commands when permissions break the build or after updating the repo:
+---
 
-    bash
+## 📁 Main Documentation Areas
 
-    source /opt/docs/venv/bin/activate
+<div class="grid cards" markdown>
 
-    sudo chown -R kvaksin:kvaksin /opt/docs/site
-    
-    git pull
-    
-    /opt/docs/venv/bin/mkdocs build
-    
-<!--
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const server = window.location.hostname;
-  const protocol = window.location.protocol === "https:" ? "https:" : "http:";
-  const url = `${protocol}//${server}:9003/hooks/update-docs`;
+-   ### 📞 Webex Calling
+    **Core collaboration platform documentation**
+    - Voicemail Admin Guide  
+    - User & Workspace Management  
+    - Call Queues, Hunt Groups, Auto Attendants  
+    - Schedules & Holidays  
+    **→ [Open Webex Calling Docs](webex-calling/)**
 
-  fetch(url)
-    .then(response => {
-      if (response.ok) {
-        showBanner("Documentation update triggered.", "#dff0d8", "#3c763d");
-      } else {
-        showBanner("Documentation update failed.", "#f2dede", "#a94442");
-      }
-    })
-    .catch(() => {
-      showBanner("Documentation update failed.", "#f2dede", "#a94442");
-    });
-});
+-   ### 🛠 Infrastructure & Automation
+    **Backend systems and automation**
+    - Linux server configuration  
+    - Systemd services  
+    - SFTP chroot  
+    - File Browser deployment  
+    - CI/CD & automation tooling  
+    **→ [Open Infrastructure Docs](infrastructure/)**
 
-function showBanner(text, bg, color) {
-  const msg = document.createElement("div");
-  msg.textContent = text;
-  msg.style = `
-    padding:10px;
-    background:${bg};
-    color:${color};
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:9999;
-    text-align:center;
-    font-weight:500;
-  `;
-  document.body.prepend(msg);
-  setTimeout(() => msg.remove(), 5000);
-}
-</script>
--->
+-   ### 📊 Reporting & Analytics
+    **CUIC / UCCE reporting resources**
+    - SQL queries  
+    - Custom report definitions  
+    - Data flow diagrams  
+    - Troubleshooting  
+    **→ [Open Reporting Docs](reporting/)**
+
+-   ### 📚 Operational Procedures
+    **Standard operating procedures**
+    - Incident response  
+    - Change management  
+    - Backup & restore  
+    - Access control  
+    **→ [Open SOPs](operations/)**
+
+</div>
+
+---
+
+## 🧭 Quick Navigation Map
+
+```mermaid
+flowchart TD
+    A[Documentation Portal] --> B[Webex Calling]
+    A --> C[Infrastructure]
+    A --> D[Reporting]
+    A --> E[Operations]
+
+    B --> B1[Voicemail Admin Guide]
+    B --> B2[User & Workspace Management]
+
+    C --> C1[Linux Server Setup]
+    C --> C2[Automation]
+
+    D --> D1[CUIC SQL]
+    D --> D2[Data Flows]
+
+    E --> E1[SOPs]
+    E --> E2[Access Control]
