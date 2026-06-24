@@ -121,6 +121,11 @@ nav:
   - Home: index.md
   - Brigantine Migration Plan: BrigantineMigration.md
   - Brigantine DID porting: fg/brigantine/portingnumbers.md 
+  Administration:
+    - Overview: admin/index.md
+    - Voicemail: admin/voicemail.md
+    - Summary Voicemail page: admin/voicemail.html
+    - Security Policies: admin/security.md
 #  - Contact Center:
 #      - Overview: cc/index.md
 #      - PCCE 15.0 2K: cc/pcce.md
