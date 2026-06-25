@@ -14,7 +14,7 @@ authors:
 
 # Webex Calling – Voicemail Administration Guide
 
-# 1. Reset Voicemail PIN
+## 1. Reset Voicemail PIN
 
 ## User Voicemail PIN Reset
 
