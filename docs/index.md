@@ -17,7 +17,7 @@ This site provides structured, engineer‑ready documentation for **Webex Callin
 
 -   ### Webex Calling
     **Core collaboration platform documentation**
-    - Voicemail Admin Guide  
+    - [Voicemail Admin Guide](webex-calling/voicemail.md)  
     - User & Workspace Management  
     - Call Queues, Hunt Groups, Auto Attendants  
     - Schedules & Holidays  
@@ -41,11 +41,14 @@ This site provides structured, engineer‑ready documentation for **Webex Callin
 
 <div class="mermaid">
 
+%%{init: {'securityLevel':'loose'}}%%
 flowchart TD
     A[Documentation Portal] --> B[Webex Calling]
     A --> C[Training Materials]
 
     B --> B1[Voicemail Admin Guide]
     B --> B2[User & Workspace Management]
+
+    click B1 "webex-calling/voicemail.md" "Open Voicemail Guide"
 
 </div>
