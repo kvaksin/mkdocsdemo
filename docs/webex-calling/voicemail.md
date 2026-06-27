@@ -163,27 +163,7 @@ authors:
 
 ---
 
-# 4. Engineer Checklist
-
-<div class="grid cards" markdown>
-
--   ### **Configuration**
-    - [ ] Voicemail enabled  
-    - [ ] PIN reset  
-    - [ ] Email notifications enabled  
-    - [ ] Distribution list validated  
-
--   ### **Testing**
-    - [ ] Leave test voicemail  
-    - [ ] Confirm email delivery  
-    - [ ] Confirm WAV attachment  
-    - [ ] Document configuration  
-
-</div>
-
----
-
-# 5. Voicemail Flow Diagram
+# 4. Voicemail Flow Diagram
 
 <div class="mermaid">
 flowchart TD
