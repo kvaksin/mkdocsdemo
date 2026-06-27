@@ -41,11 +41,13 @@ This site provides structured, engineer‑ready documentation for **Webex Callin
 
 <div class="mermaid">
 
+%%{init: {'securityLevel':'loose'}}%%
 flowchart TD
-    A[Documentation Portal] --> B[Webex Calling]
-    A --> C[Training Materials]
+A[Documentation Portal] --> B[Webex Calling]
+A --> C[Training Materials]
+B --> B1[<a href="webex-calling/voicemail.md" target="_blank">Voicemail Admin Guide</a>]
+B --> B2[User & Workspace Management]
 
-    B --> B1[Voicemail Admin Guide]
-    B --> B2[User & Workspace Management]
+
 
 </div>
