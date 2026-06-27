@@ -104,26 +104,7 @@ authors:
 
 # 2. Administer Voicemail Email Notifications
 
-## User Voicemail 
 
-<div class="grid cards" markdown>
-
--   ### **Steps**
-    1. Go to **Users → Calling → Voicemail**
-    2. Enable **Email a copy of voicemail**
-    3. Enter user email
-    4. Choose:
-       - Email only  
-       - Email + WAV  
-       - Delete after sending (optional)
-
--   ### **Details**
-    - WAV attachment = 8–30 KB per message  
-    - Transcription can be enabled  
-    - “Delete after sending” reduces mailbox storage  
-    - Recommended for executives and mobile workers  
-
-</div>
 
 ---
 
