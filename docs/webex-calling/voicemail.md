@@ -62,6 +62,43 @@ authors:
 
 ---
 
+### Workspace Voicemail 
+
+#### PIN Reset
+<div class="grid cards" markdown>
+
+-    **Steps**
+    1. Go to **Management → Workspaces**
+    2. Select workspace
+    3. Open **Calling**
+    4. Scroll to **Voicemail**
+    5. Click **Reset Voicemail PIN**
+
+-    **Details**
+    - Used for meeting rooms, huddle spaces, devices  
+    - PIN is required only if voicemail is accessed from device  
+    - Email notifications can be sent to room mailbox  
+
+</div>
+
+#### Email Notification
+<div class="grid cards" markdown>
+
+-    **Steps**
+    1. Go to **Workspaces → Calling → Voicemail**
+    2. Enable **Email a copy of voicemail**
+    3. Enter room or team email
+    4. Choose attachment option
+
+-    **Details**
+    - Ideal for meeting rooms with shared responsibility  
+    - Room mailbox receives voicemail alerts  
+    - WAV attachment optional  
+
+</div>
+
+---
+
 ### Shared Voicemail 
 *(Call Queue, Hunt Group, Auto Attendant)*
 
@@ -100,42 +137,7 @@ authors:
     - Works even if no one checks voicemail via phone  
 
 </div>
----
 
-### Workspace Voicemail 
-
-#### PIN Reset
-<div class="grid cards" markdown>
-
--    **Steps**
-    1. Go to **Management → Workspaces**
-    2. Select workspace
-    3. Open **Calling**
-    4. Scroll to **Voicemail**
-    5. Click **Reset Voicemail PIN**
-
--    **Details**
-    - Used for meeting rooms, huddle spaces, devices  
-    - PIN is required only if voicemail is accessed from device  
-    - Email notifications can be sent to room mailbox  
-
-</div>
-
-#### Email Notification
-<div class="grid cards" markdown>
-
--    **Steps**
-    1. Go to **Workspaces → Calling → Voicemail**
-    2. Enable **Email a copy of voicemail**
-    3. Enter room or team email
-    4. Choose attachment option
-
--    **Details**
-    - Ideal for meeting rooms with shared responsibility  
-    - Room mailbox receives voicemail alerts  
-    - WAV attachment optional  
-
-</div>
 
 ---
 
