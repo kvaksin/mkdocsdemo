@@ -48,7 +48,7 @@ authors:
     3. Enter user email
     4. In **Notification** area enable **Receive notifications for new voicemail and fax messages.**
     5. Enter user email
-    6. Click Save
+    6. Click **Save**
 
 -   ### **Details**
     - WAV attachment = 8–30 KB per message  
@@ -104,7 +104,9 @@ authors:
 
 # 2. Administer Voicemail Email Notifications
 
+## User Voicemail 
 
+<div class="grid cards" markdown>
 
 -   ### **Steps**
     1. Go to **Users → Calling → Voicemail**
