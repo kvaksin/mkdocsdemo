@@ -104,9 +104,7 @@ authors:
 
 # 2. Administer Voicemail Email Notifications
 
-## User Voicemail 
 
-<div class="grid cards" markdown>
 
 -   ### **Steps**
     1. Go to **Users → Calling → Voicemail**
