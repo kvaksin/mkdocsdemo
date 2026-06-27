@@ -143,11 +143,10 @@ authors:
 
 ## 2. Summary Table
 
-| Task | User | Shared | Workspace |
-|------|------|--------|-----------|
-| Reset PIN | Users → Calling | Features → Voicemail | Workspaces → Calling |
-| Email notifications | Users → Calling | Features → Voicemail | Workspaces → Calling |
-| WAV attachment | Yes | Yes | Yes |
-| Transcription | Yes | Yes | Yes |
+| Task | User | Workspace | Shared |
+|------|------|-----------|--------|
+| Reset PIN | Users → Calling | Workspaces → Calling | Features → Voicemail |
+| Email notifications | Users → Calling | Workspaces → Calling | Features → Voicemail |
+
 
 
