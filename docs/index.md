@@ -44,7 +44,7 @@ flowchart TD
     A[Documentation Portal] --> B[Webex Calling]
     A --> C[Training Materials]
 
-    B --> B1[Voicemail Admin Guide]
+    B --> B1[[Voicemail Admin Guide](/webex-calling/voicemail)]
     B --> B2[User & Workspace Management]
 
 </div>
