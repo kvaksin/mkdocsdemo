@@ -20,6 +20,7 @@ authors:
 
 ![User Voicemail](media/uservoicemail.gif)
 
+### Pin Reset
 <div class="grid cards" markdown>
 
 -   ### **Steps**
@@ -40,6 +41,7 @@ authors:
 
 </div>
 
+### Email Notification
 <div class="grid cards" markdown>
 
 -   ### **Steps**
