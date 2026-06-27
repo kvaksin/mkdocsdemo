@@ -62,9 +62,10 @@ authors:
 
 ---
 
-## Shared Voicemail PIN Reset  
+## Shared Voicemail 
 *(Call Queue, Hunt Group, Auto Attendant)*
 
+### PIN Reset  
 <div class="grid cards" markdown>
 
 -   ### **Steps**
@@ -82,39 +83,7 @@ authors:
 
 </div>
 
----
-
-## Workspace Voicemail PIN Reset
-
-<div class="grid cards" markdown>
-
--   ### **Steps**
-    1. Go to **Management → Workspaces**
-    2. Select workspace
-    3. Open **Calling**
-    4. Scroll to **Voicemail**
-    5. Click **Reset Voicemail PIN**
-
--   ### **Details**
-    - Used for meeting rooms, huddle spaces, devices  
-    - PIN is required only if voicemail is accessed from device  
-    - Email notifications can be sent to room mailbox  
-
-</div>
-
----
-
-# 2. Administer Voicemail Email Notifications
-
-
-
----
-
-## Shared Voicemail  
-*(Queue / Hunt / AA)*
-
-
-
+### Email Notification
 <div class="grid cards" markdown>
 
 -   ### **Steps**
@@ -131,11 +100,28 @@ authors:
     - Works even if no one checks voicemail via phone  
 
 </div>
-
 ---
 
-## Workspace Voicemail Email Delivery
+## Workspace Voicemail 
 
+### PIN Reset
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **Management → Workspaces**
+    2. Select workspace
+    3. Open **Calling**
+    4. Scroll to **Voicemail**
+    5. Click **Reset Voicemail PIN**
+
+-   ### **Details**
+    - Used for meeting rooms, huddle spaces, devices  
+    - PIN is required only if voicemail is accessed from device  
+    - Email notifications can be sent to room mailbox  
+
+</div>
+
+### Email Notification
 <div class="grid cards" markdown>
 
 -   ### **Steps**
