@@ -40,6 +40,24 @@ authors:
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   ### **Steps**
+    1. Go to **Users → Calling → Voicemail**
+    2. Enable **Email a copy of voicemail** to send transcript of the voicemail
+    3. Enter user email
+    4. In **Notification** area enable **Receive notifications for new voicemail and fax messages.**
+    5. Enter user email
+    6. Click Save
+
+-   ### **Details**
+    - WAV attachment = 8–30 KB per message  
+    - Transcription can be enabled  
+    - “Delete after sending” reduces mailbox storage  
+    - Recommended for executives and mobile workers  
+
+</div>
+
 ---
 
 ## Shared Voicemail PIN Reset  
@@ -84,9 +102,9 @@ authors:
 
 ---
 
-# 2. Enable Voicemail Email Notifications
+# 2. Administer Voicemail Email Notifications
 
-## User Voicemail Email Delivery
+## User Voicemail 
 
 <div class="grid cards" markdown>
 
@@ -109,8 +127,10 @@ authors:
 
 ---
 
-## Shared Voicemail Email Delivery  
+## Shared Voicemail  
 *(Queue / Hunt / AA)*
+
+
 
 <div class="grid cards" markdown>
 
