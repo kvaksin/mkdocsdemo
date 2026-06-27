@@ -18,11 +18,9 @@ authors:
 
 ## User Voicemail PIN Reset
 
-<div class="grid cards" markdown>
-
 ![User Voicemail](media/uservoicemail.gif)
 
-<br>
+<div class="grid cards" markdown>
 
 -   ### **Steps**
     1. Go to **admin.webex.com → Users**
