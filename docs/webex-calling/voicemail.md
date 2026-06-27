@@ -14,16 +14,16 @@ authors:
 
 # Webex Calling – Voicemail Administration Guide
 
-## 1. Reset Voicemail PIN
+## Voicemail Administration
 
-## User Voicemail PIN Reset
+### User Voicemail PIN Reset
 
 ![User Voicemail](media/uservoicemail.gif)
 
-### Pin Reset
+#### Pin Reset
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-   **Steps**
     1. Go to **admin.webex.com → Users**
     2. Select the user
     3. Open **Calling**
@@ -33,7 +33,7 @@ authors:
        - Auto‑email temporary PIN  
        - Or set PIN manually
 
--   ### **Details**
+-  **Details**
     - Admins **cannot view** existing PINs  
     - User must **change PIN at next login**  
     - Works for all Webex Calling Professional users  
@@ -41,10 +41,10 @@ authors:
 
 </div>
 
-### Email Notification
+#### Email Notification
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-  **Steps**
     1. Go to **Users → Calling → Voicemail**
     2. Enable **Email a copy of voicemail** to send transcript of the voicemail
     3. Enter user email
@@ -52,7 +52,7 @@ authors:
     5. Enter user email
     6. Click **Save**
 
--   ### **Details**
+-  **Details**
     - WAV attachment = 8–30 KB per message  
     - Transcription can be enabled  
     - “Delete after sending” reduces mailbox storage  
@@ -62,20 +62,20 @@ authors:
 
 ---
 
-## Shared Voicemail 
+### Shared Voicemail 
 *(Call Queue, Hunt Group, Auto Attendant)*
 
-### PIN Reset  
+#### PIN Reset  
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-    **Steps**
     1. Go to **Services → Calling → Features**
     2. Select **Call Queue / Hunt Group / Auto Attendant**
     3. Open the feature
     4. Go to **Voicemail**
     5. Click **Reset Voicemail PIN**
 
--   ### **Details**
+-    **Details**
     - Shared mailbox PIN is used by multiple agents  
     - Admin receives temporary PIN  
     - Best practice: store PIN in team password vault  
@@ -83,17 +83,17 @@ authors:
 
 </div>
 
-### Email Notification
+#### Email Notification
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-    **Steps**
     1. Go to **Services → Calling → Features**
     2. Select the feature
     3. Open **Voicemail**
     4. Enable **Email a copy of voicemail**
     5. Enter shared mailbox or distribution list
 
--   ### **Details**
+-    **Details**
     - Best practice: use **distribution list**  
     - Ensures multiple agents receive voicemail  
     - WAV attachment recommended for support teams  
@@ -102,35 +102,35 @@ authors:
 </div>
 ---
 
-## Workspace Voicemail 
+### Workspace Voicemail 
 
-### PIN Reset
+#### PIN Reset
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-    **Steps**
     1. Go to **Management → Workspaces**
     2. Select workspace
     3. Open **Calling**
     4. Scroll to **Voicemail**
     5. Click **Reset Voicemail PIN**
 
--   ### **Details**
+-    **Details**
     - Used for meeting rooms, huddle spaces, devices  
     - PIN is required only if voicemail is accessed from device  
     - Email notifications can be sent to room mailbox  
 
 </div>
 
-### Email Notification
+#### Email Notification
 <div class="grid cards" markdown>
 
--   ### **Steps**
+-    **Steps**
     1. Go to **Workspaces → Calling → Voicemail**
     2. Enable **Email a copy of voicemail**
     3. Enter room or team email
     4. Choose attachment option
 
--   ### **Details**
+-    **Details**
     - Ideal for meeting rooms with shared responsibility  
     - Room mailbox receives voicemail alerts  
     - WAV attachment optional  
@@ -139,7 +139,7 @@ authors:
 
 ---
 
-# 3. Summary Table
+## 2. Summary Table
 
 | Task | User | Shared | Workspace |
 |------|------|--------|-----------|
@@ -148,19 +148,4 @@ authors:
 | WAV attachment | Yes | Yes | Yes |
 | Transcription | Yes | Yes | Yes |
 
----
 
-# 4. Voicemail Flow Diagram
-
-<div class="mermaid">
-flowchart TD
-    A[Caller Leaves Voicemail] --> B[Webex Voicemail Server]
-    B --> C{Mailbox Type}
-    C --> D[User]
-    C --> E[Shared Queue/Hunt/AA]
-    C --> F[Workspace]
-    D --> G[Email Notification]
-    E --> G
-    F --> G
-    G --> H[Recipient Receives Email/WAV]
-</div>
