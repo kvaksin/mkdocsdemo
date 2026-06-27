@@ -39,12 +39,11 @@ This site provides structured, engineer‑ready documentation for **Webex Callin
 
 ## 🧭 Quick Navigation Map
 
-<div class="mermaid">
+```mermaid
 flowchart TD
     A[Documentation Portal] --> B[Webex Calling]
     A --> C[Training Materials]
 
     B --> B1[[Voicemail Admin Guide](/webex-calling/voicemail)]
     B --> B2[User & Workspace Management]
-
-</div>
+```
