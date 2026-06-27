@@ -20,6 +20,8 @@ authors:
 
 <div class="grid cards" markdown>
 
+![User Voicemail](media/uservoicemail.gif)
+
 -   ### **Steps**
     1. Go to **admin.webex.com → Users**
     2. Select the user
