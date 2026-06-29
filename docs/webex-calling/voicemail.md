@@ -62,15 +62,15 @@ authors:
 
 ---
 
-### Workspace Voicemail 
+### Voicemail Group
 
 #### PIN Reset
 <div class="grid cards" markdown>
 
 -    **Steps**
-    1. Go to **Management → Workspaces**
-    2. Select workspace
-    3. Open **Calling**
+    1. Go to **Services → Calling → Virtual Lines **
+    2. Select a virtual line number 
+    3. From the **Voicemail, fax and announcement language section**, click **Voicemail**.
     4. Scroll to **Voicemail**
     5. Click **Reset Voicemail PIN**
 
@@ -99,18 +99,23 @@ authors:
 
 ---
 
-### Shared Voicemail 
+### Create a voicemail group using a primary line or extension
 *(Call Queue, Hunt Group, Auto Attendant)*
 
 #### PIN Reset  
 <div class="grid cards" markdown>
 
 -    **Steps**
-    1. Go to **Services → Calling → Features**
-    2. Select **Call Queue / Hunt Group / Auto Attendant**
-    3. Open the feature
-    4. Go to **Voicemail**
-    5. Click **Reset Voicemail PIN**
+   Sign in to Control Hub.
+
+2	
+Go to Services > Calling > Features.
+
+3	
+Select the Voicemail Group card then click Add new.
+
+4	
+On the Basics page, enter the following information, and then click Next.
 
 -    **Details**
     - Shared mailbox PIN is used by multiple agents  
