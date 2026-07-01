@@ -1,244 +1,150 @@
 ---
-title: "Webex Attendant Console (WxAC) – Operator Training Guide"
-description: "Delta-focused operator training for transitioning from Cisco Unified Attendant Console (CUAC) to Webex Attendant Console (WxAC). Includes interface changes, call handling updates, smart directories, and a structured 4‑phase rollout strategy."
+title: "Webex Calling – Voicemail Admin Guide"
+description: "Admin procedures for resetting voicemail PINs and enabling voicemail email notifications for Users, Shared Mailboxes, and Workspaces."
 tags:
-  - webex
-  - attendant-console
-  - calling
-  - operator
-  - training
+- webex
+- calling
+- voicemail
+- admin
+- control-hub
 authors:
-  - Konstantin Vaksin
+- Konstantin Vaksin
 ---
 
-# Webex Attendant Console (WxAC) – Operator Training Guide
 
-## 1. CUAC → WxAC Delta Overview
+# Webex Calling – Voicemail Administration Guide
 
-### Interface Changes
+## 1. Voicemail Administration
 
-![WxAC Interface](media/wxac-interface.gif)
+### User Voicemail PIN Reset
 
+![User Voicemail](media/uservoicemail.gif)
+
+#### Pin Reset
 <div class="grid cards" markdown>
 
-- **What Changed**
-  - WxAC is embedded inside the **Webex App**, not a standalone desktop program  
-  - No more CUAC server IP logins  
-  - Cleaner, cloud-native layout  
-  - Automatic updates with Webex App  
+-   **Steps**
+1. Go to **admin.webex.com → Users**
+2. Select the user
+3. Open **Calling**
+4. Scroll to **Voicemail**
+5. Click **Reset Voicemail PIN**
+6. Choose:
+- Auto‑email temporary PIN  
+- Or set PIN manually
 
-- **Operator Impact**
-  - Faster access  
-  - No separate application to launch  
-  - Reduced workstation dependency  
-  - Familiar Webex UI reduces training time  
+-  **Details**
+- Admins **cannot view** existing PINs  
+- User must **change PIN at next login**  
+- Works for all Webex Calling Professional users  
+- Recommended: let system generate temporary PIN  
 
 </div>
 
----
-
-### Layout Mapping
-
+#### Email Notification
 <div class="grid cards" markdown>
 
-- **CUAC → WxAC Mapping**
-  - Call Control → Call Control Bar  
-  - Directory Pane → Smart Directory  
-  - Queue Pane → Queue Panel  
-  - Speed Dials → Unlimited Favorites  
+-  **Steps**
+1. Go to **Users → Calling → Voicemail**
+2. Enable **Email a copy of voicemail** to send transcript of the voicemail
+3. Enter user email
+4. In **Notification** area enable **Receive notifications for new voicemail and fax messages.**
+5. Enter user email
+6. Click **Save**
 
-- **Details**
-  - Panels are collapsible  
-  - Directory search is significantly faster  
-  - Favorites can be grouped without limits  
-  - Presence indicators are richer and cloud-based  
+-  **Details**
+- WAV attachment = 8–30 KB per message  
+- Transcription can be enabled  
+- “Delete after sending” reduces mailbox storage  
+- Recommended for executives and mobile workers  
 
 </div>
 
 ---
 
-## 2. Cloud-Native Call Handling
+### Workspace Voicemail 
 
-### Drag-and-Drop Transfers
-
-![Drag and Drop](media/wxac-transfer.gif)
-
+#### PIN Reset
 <div class="grid cards" markdown>
 
-- **Steps**
-  1. Answer the call  
-  2. Drag the call bubble  
-  3. Drop anywhere on the contact row  
-  4. Webex determines the correct transfer type  
+-    **Steps**
+1. Go to **Management → Workspaces**
+2. Select workspace
+3. Open **Calling**
+4. Scroll to **Voicemail**
+5. Click **Reset Voicemail PIN**
 
-- **Details**
-  - No more “Consult” vs “Direct Transfer” boxes  
-  - Reduces operator hesitation  
-  - Works with Favorites, Directory, and Queues  
-  - Ideal for high-volume environments  
+-    **Details**
+- Used for meeting rooms, huddle spaces, devices  
+- PIN is required only if voicemail is accessed from device  
+- Email notifications can be sent to room mailbox  
 
 </div>
 
----
-
-### Dynamic Call Parking
-
+#### Email Notification
 <div class="grid cards" markdown>
 
-- **Steps**
-  1. Click **Park**  
-  2. Webex assigns the next available slot  
-  3. Communicate the slot number  
-  4. Retrieve from any device  
+-    **Steps**
+1. Go to **Workspaces → Calling → Voicemail**
+2. Enable **Email a copy of voicemail**
+3. Enter room or team email
+4. Choose attachment option
 
-- **Details**
-  - No manual slot selection  
-  - Prevents collisions  
-  - Faster than CUAC parking  
-  - Recommended for reception desks  
+-    **Details**
+- Ideal for meeting rooms with shared responsibility  
+- Room mailbox receives voicemail alerts  
+- WAV attachment optional  
 
 </div>
 
 ---
 
-### Keyboard Shortcut Delta
+### Shared Voicemail 
+*(Call Queue, Hunt Group, Auto Attendant)*
 
+#### PIN Reset  
 <div class="grid cards" markdown>
 
-- **CUAC Shortcuts**
-  - F10 – Answer  
-  - F11 – Transfer  
-  - F12 – Hold  
-  - F9 – End  
+-    **Steps**
+1. Go to **Services → Calling → Features**
+2. Select **Call Queue / Hunt Group / Auto Attendant**
+3. Open the feature
+4. Go to **Voicemail**
+5. Click **Reset Voicemail PIN**
 
-- **WxAC Shortcuts**
-  - Ctrl + Shift + A – Answer  
-  - Ctrl + Shift + T – Transfer  
-  - Ctrl + Shift + H – Hold  
-  - Ctrl + Shift + E – End  
+-    **Details**
+- Shared mailbox PIN is used by multiple agents  
+- Admin receives temporary PIN  
+- Best practice: store PIN in team password vault  
+- Email notifications recommended for shared mailboxes  
 
 </div>
 
----
-
-## 3. Presence & Smart Directories
-
-### Calendar Presence
-
-![Presence](media/wxac-presence.gif)
-
+#### Email Notification
 <div class="grid cards" markdown>
 
-- **What You See**
-  - Busy  
-  - In a meeting  
-  - Out of office  
-  - Free  
+-    **Steps**
+1. Go to **Services → Calling → Features**
+2. Select the feature
+3. Open **Voicemail**
+4. Enable **Email a copy of voicemail**
+5. Enter shared mailbox or distribution list
 
-- **Details**
-  - Prevents blind transfers  
-  - Uses Microsoft 365 / Outlook presence  
-  - Works across the entire organization  
-  - Reduces call bouncing  
-
-</div>
-
----
-
-### Smart Directory Search
-
-<div class="grid cards" markdown>
-
-- **Search Capabilities**
-  - Name  
-  - Department  
-  - Role  
-  - Keywords  
-  - Team names  
-
-- **Details**
-  - Faster than CUAC  
-  - Supports partial matches  
-  - Ideal for large organizations  
-  - Operators no longer need exact spelling  
+-    **Details**
+- Best practice: use **distribution list**  
+- Ensures multiple agents receive voicemail  
+- WAV attachment recommended for support teams  
+- Works even if no one checks voicemail via phone  
 
 </div>
 
----
-
-### Unlimited Favorites
-
-<div class="grid cards" markdown>
-
-- **Best Practices**
-  - Group by department  
-  - Add external numbers  
-  - Keep top 10 most-used contacts at the top  
-  - Use Favorites for high-volume transfers  
-
-- **Details**
-  - No CUAC speed-dial limits  
-  - Drag-and-drop compatible  
-  - Supports custom ordering  
-  - Ideal for reception and switchboard teams  
-
-</div>
 
 ---
 
-## 4. Training Strategy (4‑Phase Rollout)
+## 2. Summary Table
 
-### Mermaid Diagram
 
-<div class="mermaid">
-
-flowchart LR
-    A([Phase 1: Awareness<br/>1–2 Weeks Prior]) --> B([Phase 2: Sandbox Practice<br/>3–5 Days Prior])
-    B --> C([Phase 3: Go-Live Shadowing<br/>Launch Day])
-    C --> D([Phase 4: Mastery & Post-Mortem<br/>14 Days Post])
-
-    classDef phase fill:#e8f1ff,stroke:#4a78ff,stroke-width:1px,color:#000,border-radius:6px;
-    class A,B,C,D phase;
-
-</div>
-
-## Phase 1 — Awareness
-• Steps
-	◦ Share a 5-minute intro video
-	◦ Highlight quick wins
-	◦ Explain cloud-native benefits
-• Details
-	◦ Reduces anxiety
-	◦ Builds curiosity
-	◦ Sets expectations early
----
-## Phase 2 — Sandbox Practice
-• Steps
-	◦ Create a Training Queue
-	◦ Pair operators
-	◦ Practice transfers, parking, directory search
-• Details
-	◦ No customer impact
-	◦ Builds muscle memory
-	◦ Encourages peer learning
----
-## Phase 3 — Go-Live Shadowing
-• Steps
-	◦ Trainer sits with operators
-	◦ Or stays in a Webex meeting
-	◦ Provide instant troubleshooting
-• Details
-	◦ Reduces first-day mistakes
-	◦ Builds confidence
-	◦ Ensures smooth launch
----
-## Phase 4 — Mastery & Post-Mortem
-• Steps
-	◦ 15-minute follow-up
-	◦ Review Favorites usage
-	◦ Optimize shortcuts
-	◦ Adjust layout
-• Details
-	◦ Eliminates bad habits
-	◦ Improves long-term efficiency
-	◦ Uses real call volume data
+| Task | User | Workspace | Shared |
+|------|------|-----------|--------|
+| Reset PIN | Users → Calling | Workspaces → Calling | Features → Voicemail |
+| Email notifications | Users → Calling | Workspaces → Calling | Features → Voicemail |
