@@ -22,12 +22,14 @@ authors:
 <div class="grid cards" markdown>
 
 **What Changed**
+
   - WxAC is embedded inside the **Webex App**, not a standalone desktop program  
   - No more CUAC server IP logins  
   - Cleaner, cloud-native layout  
   - Automatic updates with Webex App  
 ---
 **Operator Impact**
+
   - Faster access  
   - No separate application to launch  
   - Reduced workstation dependency  
@@ -42,12 +44,14 @@ authors:
 <div class="grid cards" markdown>
 
 **CUAC → WxAC Mapping**
+
   - Call Control → Call Control Bar  
   - Directory Pane → Smart Directory  
   - Queue Pane → Queue Panel  
   - Speed Dials → Unlimited Favorites  
 ---
 **Details**
+
   - Panels are collapsible  
   - Directory search is significantly faster  
   - Favorites can be grouped without limits  
@@ -66,12 +70,14 @@ authors:
 <div class="grid cards" markdown>
 
 **Steps**
+
   1. Answer the call  
   2. Drag the call bubble  
   3. Drop anywhere on the contact row  
   4. Webex determines the correct transfer type  
 ---
 **Details**
+
   - No more “Consult” vs “Direct Transfer” boxes  
   - Reduces operator hesitation  
   - Works with Favorites, Directory, and Queues  
@@ -86,12 +92,14 @@ authors:
 <div class="grid cards" markdown>
 
 **Steps**
+
   1. Click **Park**  
   2. Webex assigns the next available slot  
   3. Communicate the slot number  
   4. Retrieve from any device  
 ---
 **Details**
+
   - No manual slot selection  
   - Prevents collisions  
   - Faster than CUAC parking  
@@ -106,12 +114,14 @@ authors:
 <div class="grid cards" markdown>
 
 **CUAC Shortcuts**
+
   - F10 – Answer  
   - F11 – Transfer  
   - F12 – Hold  
   - F9 – End  
 ---
 **WxAC Shortcuts**
+
   - Ctrl + Shift + A – Answer  
   - Ctrl + Shift + T – Transfer  
   - Ctrl + Shift + H – Hold  
@@ -130,12 +140,14 @@ authors:
 <div class="grid cards" markdown>
 
 **What You See**
+
   - Busy  
   - In a meeting  
   - Out of office  
   - Free  
 ---
 **Details**
+
   - Prevents blind transfers  
   - Uses Microsoft 365 / Outlook presence  
   - Works across the entire organization  
@@ -150,6 +162,7 @@ authors:
 <div class="grid cards" markdown>
 
 **Search Capabilities**
+
   - Name  
   - Department  
   - Role  
@@ -157,6 +170,7 @@ authors:
   - Team names  
 ---
 **Details**
+
   - Faster than CUAC  
   - Supports partial matches  
   - Ideal for large organizations  
@@ -171,12 +185,14 @@ authors:
 <div class="grid cards" markdown>
 
 **Best Practices**
+
   - Group by department  
   - Add external numbers  
   - Keep top 10 most-used contacts at the top  
   - Use Favorites for high-volume transfers  
 ---
 **Details**
+
   - No CUAC speed-dial limits  
   - Drag-and-drop compatible  
   - Supports custom ordering  
