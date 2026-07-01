@@ -110,7 +110,7 @@ authors:
   - F11 – Transfer  
   - F12 – Hold  
   - F9 – End  
-
+---
 - **WxAC Shortcuts**
   - Ctrl + Shift + A – Answer  
   - Ctrl + Shift + T – Transfer  
