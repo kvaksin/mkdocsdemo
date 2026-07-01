@@ -1,41 +1,194 @@
-# Operator Transition Training — CUAC to Webex Attendant Console (WxAC)
+---
+title: "Webex Attendant Console (WxAC) – Operator Training Guide"
+description: "Delta-focused operator training for transitioning from Cisco Unified Attendant Console (CUAC) to Webex Attendant Console (WxAC). Includes interface changes, call handling updates, smart directories, and a structured 4‑phase rollout strategy."
+tags:
+  - webex
+  - attendant-console
+  - calling
+  - operator
+  - training
+authors:
+  - Konstantin Vaksin
+---
 
-This page provides a complete, operator‑focused transition guide for moving from the legacy **Cisco Unified Attendant Console (CUAC)** to the modern, cloud‑native **Webex Attendant Console (WxAC)**.  
-It includes the educational vision behind the training, the delta‑focused learning content, and a visual Mermaid diagram of the rollout strategy.
+# Webex Attendant Console (WxAC) – Operator Training Guide
+
+## 1. CUAC → WxAC Delta Overview
+
+### Interface Changes
+
+![WxAC Interface](media/wxac-interface.gif)
+
+<div class="grid cards" markdown>
+
+- **What Changed**
+  - WxAC is embedded inside the **Webex App**, not a standalone desktop program  
+  - No more CUAC server IP logins  
+  - Cleaner, cloud-native layout  
+  - Automatic updates with Webex App  
+
+- **Operator Impact**
+  - Faster access  
+  - No separate application to launch  
+  - Reduced workstation dependency  
+  - Familiar Webex UI reduces training time  
+
+</div>
 
 ---
 
-## 🎯 Training Purpose
+### Layout Mapping
 
-Operators already know how to handle calls.  
-This training focuses exclusively on:
+<div class="grid cards" markdown>
 
-- What is *different*  
-- What is *new*  
-- What is *no longer applicable*  
-- What workflows have been *simplified or automated*  
+- **CUAC → WxAC Mapping**
+  - Call Control → Call Control Bar  
+  - Directory Pane → Smart Directory  
+  - Queue Pane → Queue Panel  
+  - Speed Dials → Unlimited Favorites  
 
----
+- **Details**
+  - Panels are collapsible  
+  - Directory search is significantly faster  
+  - Favorites can be grouped without limits  
+  - Presence indicators are richer and cloud-based  
 
-# 🌱 Educational Vision & Training Philosophy
-
-Transitioning operators from CUAC to WxAC is not just a technical migration — it is a **behavioral change process**.  
-Our training strategy is built on three core principles of adult learning:
-
-## 1. Reduce Cognitive Load
-We avoid re-teaching telephony basics and focus only on the delta between CUAC and WxAC.
-
-## 2. Build Confidence Before Competence
-Operators must feel safe before they can perform well.  
-Early exposure reduces fear and creates curiosity.
-
-## 3. Learn by Doing
-Hands-on practice builds muscle memory.  
-Operators master drag‑and‑drop transfers, dynamic parking, and directory search through repetition.
+</div>
 
 ---
 
-# 🗺️ Training Rollout Strategy (Mermaid Diagram)
+## 2. Cloud-Native Call Handling
+
+### Drag-and-Drop Transfers
+
+![Drag and Drop](media/wxac-transfer.gif)
+
+<div class="grid cards" markdown>
+
+- **Steps**
+  1. Answer the call  
+  2. Drag the call bubble  
+  3. Drop anywhere on the contact row  
+  4. Webex determines the correct transfer type  
+
+- **Details**
+  - No more “Consult” vs “Direct Transfer” boxes  
+  - Reduces operator hesitation  
+  - Works with Favorites, Directory, and Queues  
+  - Ideal for high-volume environments  
+
+</div>
+
+---
+
+### Dynamic Call Parking
+
+<div class="grid cards" markdown>
+
+- **Steps**
+  1. Click **Park**  
+  2. Webex assigns the next available slot  
+  3. Communicate the slot number  
+  4. Retrieve from any device  
+
+- **Details**
+  - No manual slot selection  
+  - Prevents collisions  
+  - Faster than CUAC parking  
+  - Recommended for reception desks  
+
+</div>
+
+---
+
+### Keyboard Shortcut Delta
+
+<div class="grid cards" markdown>
+
+- **CUAC Shortcuts**
+  - F10 – Answer  
+  - F11 – Transfer  
+  - F12 – Hold  
+  - F9 – End  
+
+- **WxAC Shortcuts**
+  - Ctrl + Shift + A – Answer  
+  - Ctrl + Shift + T – Transfer  
+  - Ctrl + Shift + H – Hold  
+  - Ctrl + Shift + E – End  
+
+</div>
+
+---
+
+## 3. Presence & Smart Directories
+
+### Calendar Presence
+
+![Presence](media/wxac-presence.gif)
+
+<div class="grid cards" markdown>
+
+- **What You See**
+  - Busy  
+  - In a meeting  
+  - Out of office  
+  - Free  
+
+- **Details**
+  - Prevents blind transfers  
+  - Uses Microsoft 365 / Outlook presence  
+  - Works across the entire organization  
+  - Reduces call bouncing  
+
+</div>
+
+---
+
+### Smart Directory Search
+
+<div class="grid cards" markdown>
+
+- **Search Capabilities**
+  - Name  
+  - Department  
+  - Role  
+  - Keywords  
+  - Team names  
+
+- **Details**
+  - Faster than CUAC  
+  - Supports partial matches  
+  - Ideal for large organizations  
+  - Operators no longer need exact spelling  
+
+</div>
+
+---
+
+### Unlimited Favorites
+
+<div class="grid cards" markdown>
+
+- **Best Practices**
+  - Group by department  
+  - Add external numbers  
+  - Keep top 10 most-used contacts at the top  
+  - Use Favorites for high-volume transfers  
+
+- **Details**
+  - No CUAC speed-dial limits  
+  - Drag-and-drop compatible  
+  - Supports custom ordering  
+  - Ideal for reception and switchboard teams  
+
+</div>
+
+---
+
+## 4. Training Strategy (4‑Phase Rollout)
+
+### Mermaid Diagram
 
 ```mermaid
 flowchart LR
@@ -47,7 +200,7 @@ flowchart LR
     class A,B,C,D phase;
 ```
 
-Phase 1 — Awareness
+## Phase 1 — Awareness
 • Steps
 	◦ Share a 5-minute intro video
 	◦ Highlight quick wins
@@ -57,7 +210,7 @@ Phase 1 — Awareness
 	◦ Builds curiosity
 	◦ Sets expectations early
 ---
-Phase 2 — Sandbox Practice
+## Phase 2 — Sandbox Practice
 • Steps
 	◦ Create a Training Queue
 	◦ Pair operators
@@ -67,7 +220,7 @@ Phase 2 — Sandbox Practice
 	◦ Builds muscle memory
 	◦ Encourages peer learning
 ---
-Phase 3 — Go-Live Shadowing
+## Phase 3 — Go-Live Shadowing
 • Steps
 	◦ Trainer sits with operators
 	◦ Or stays in a Webex meeting
@@ -77,7 +230,7 @@ Phase 3 — Go-Live Shadowing
 	◦ Builds confidence
 	◦ Ensures smooth launch
 ---
-Phase 4 — Mastery & Post-Mortem
+## Phase 4 — Mastery & Post-Mortem
 • Steps
 	◦ 15-minute follow-up
 	◦ Review Favorites usage
