@@ -105,13 +105,13 @@ authors:
 
 <div class="grid cards" markdown>
 
-- **CUAC Shortcuts**
+**CUAC Shortcuts**
   - F10 – Answer  
   - F11 – Transfer  
   - F12 – Hold  
   - F9 – End  
 ---
-- **WxAC Shortcuts**
+**WxAC Shortcuts**
   - Ctrl + Shift + A – Answer  
   - Ctrl + Shift + T – Transfer  
   - Ctrl + Shift + H – Hold  
