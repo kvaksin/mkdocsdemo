@@ -46,3 +46,44 @@ flowchart LR
     classDef phase fill:#e8f1ff,stroke:#4a78ff,stroke-width:1px,color:#000,border-radius:6px;
     class A,B,C,D phase;
 ```
+
+Phase 1 — Awareness
+• Steps
+	◦ Share a 5-minute intro video
+	◦ Highlight quick wins
+	◦ Explain cloud-native benefits
+• Details
+	◦ Reduces anxiety
+	◦ Builds curiosity
+	◦ Sets expectations early
+---
+Phase 2 — Sandbox Practice
+• Steps
+	◦ Create a Training Queue
+	◦ Pair operators
+	◦ Practice transfers, parking, directory search
+• Details
+	◦ No customer impact
+	◦ Builds muscle memory
+	◦ Encourages peer learning
+---
+Phase 3 — Go-Live Shadowing
+• Steps
+	◦ Trainer sits with operators
+	◦ Or stays in a Webex meeting
+	◦ Provide instant troubleshooting
+• Details
+	◦ Reduces first-day mistakes
+	◦ Builds confidence
+	◦ Ensures smooth launch
+---
+Phase 4 — Mastery & Post-Mortem
+• Steps
+	◦ 15-minute follow-up
+	◦ Review Favorites usage
+	◦ Optimize shortcuts
+	◦ Adjust layout
+• Details
+	◦ Eliminates bad habits
+	◦ Improves long-term efficiency
+	◦ Uses real call volume data
