@@ -190,7 +190,8 @@ authors:
 
 ### Mermaid Diagram
 
-```mermaid
+<div class="mermaid">
+
 flowchart LR
     A([Phase 1: Awareness<br/>1–2 Weeks Prior]) --> B([Phase 2: Sandbox Practice<br/>3–5 Days Prior])
     B --> C([Phase 3: Go-Live Shadowing<br/>Launch Day])
@@ -198,7 +199,8 @@ flowchart LR
 
     classDef phase fill:#e8f1ff,stroke:#4a78ff,stroke-width:1px,color:#000,border-radius:6px;
     class A,B,C,D phase;
-```
+
+</div>
 
 ## Phase 1 — Awareness
 • Steps
