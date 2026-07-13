@@ -8,18 +8,18 @@ All test users share the same password:
 
 ### User Table
 
-| **User Email** | **Extension (DN)** | **Password** |
-|----------------|--------------------|--------------|
-| mrgzi30nl7f0@aniimate.net | — | `C1sco123!` |
-| mrgv9k0lwyv2@theeditai.com | — | `C1sco123!` |
-| mrgva1m2o3h1@wanaivideogenerator.com | — | `C1sco123!` |
-| mrgvawitzgnl@wanaivideogenerator.com | — | `C1sco123!` |
-| mrgvmy1luy48@aniimate.net | 7349 | `C1sco123!` |
-| mrgvnidfowlq@theeditai.com | 7351 | `C1sco123!` |
-| mrgvonpm61et@gettranslation.app | 7352 | `C1sco123!` |
-| mrgvnt1obiqx@aifotoeditor.com | 7350 | `C1sco123!` |
-| mrgwc27z1we6@animateany.com | 7355 | `C1sco123!` |
-| mrgwckn005df@oldtranslator.com | 7354 | `C1sco123!` |
+| **User Email** | **Password** |
+|----------------|--------------|
+| mrgzi30nl7f0@aniimate.net | `C1sco123!` |
+| mrgv9k0lwyv2@theeditai.com  | `C1sco123!` |
+| mrgva1m2o3h1@wanaivideogenerator.com  | `C1sco123!` |
+| mrgvawitzgnl@wanaivideogenerator.com  | `C1sco123!` |
+| mrgvmy1luy48@aniimate.net  | `C1sco123!` |
+| mrgvnidfowlq@theeditai.com  | `C1sco123!` |
+| mrgvonpm61et@gettranslation.app  | `C1sco123!` |
+| mrgvnt1obiqx@aifotoeditor.com  | `C1sco123!` |
+| mrgwc27z1we6@animateany.com  | `C1sco123!` |
+| mrgwckn005df@oldtranslator.com  | `C1sco123!` |
 
 ---
 
