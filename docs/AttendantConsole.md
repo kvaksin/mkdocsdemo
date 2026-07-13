@@ -4,7 +4,7 @@
 
 All test users share the same password:
 
-> **Password:** `C1sco123!`
+> **Password:** div class="cell-flex"><span class="credentials-text">`C1sco123!`</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div>
 
 ### User Table
 
