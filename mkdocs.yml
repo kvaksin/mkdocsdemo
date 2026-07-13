@@ -125,6 +125,7 @@ nav:
     - Overview: webex-calling/index.md
     - Voicemail: webex-calling/voicemail.md
   - Webex Attendant Console training: webexAC.md
+  - Attendant Console: AttendantConsole.md
 
 #  - webexAC.mdContact Center:
 #      - Overview: cc/index.md
