@@ -4,13 +4,13 @@
 
 All test users share the same password:
 
-> **Password:** `C1sco123!`
+> **Password:** <div class="cell-flex"><span class="credentials-text"></span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div>
 
 ### User Table
 
 | # | **User Email** | **Password** |
 |-|------------------|--------------|
-|1| <div class="cell-flex"><span class="credentials-text">mrgzi30nl7f0@aniimate.net</span><button class="icon-btn copy-btn" data-copy="mrgzi30nl7f0@aniimate.net"><span class="md-icon material-icons">content_copy</span></button></div> | <div class="cell-flex"><span class="credentials-text">C1sco123!</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div> |
+|1| <div class="cell-flex"><span class="credentials-text">mrgzi30nl7f0@aniimate.net</span><button class="icon-btn copy-btn" data-copy="mrgzi30nl7f0@aniimate.net"><span class="md-icon material-icons">content_copy</span></button></div> | <div class="cell-flex"><span class="credentials-text">`C1sco123!`</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div> |
 |2| <div class="cell-flex"><span class="credentials-text">mrgv9k0lwyv2@theeditai.com</span><button class="icon-btn copy-btn" data-copy="mrgv9k0lwyv2@theeditai.com"><span class="md-icon material-icons">content_copy</span></button></div> | <div class="cell-flex"><span class="credentials-text">`C1sco123!`</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div> |
 |3| <div class="cell-flex"><span class="credentials-text">mrgva1m2o3h1@wanaivideogenerator.com</span><button class="icon-btn copy-btn" data-copy="mrgva1m2o3h1@wanaivideogenerator.com"><span class="md-icon material-icons">content_copy</span></button></div> | <div class="cell-flex"><span class="credentials-text">`C1sco123!`</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div> |
 |4| <div class="cell-flex"><span class="credentials-text">mrgvawitzgnl@wanaivideogenerator.com</span><button class="icon-btn copy-btn" data-copy="mrgvawitzgnl@wanaivideogenerator.com"><span class="md-icon material-icons">content_copy</span></button></div> | <div class="cell-flex"><span class="credentials-text">`C1sco123!`</span><button class="icon-btn copy-btn" data-copy="C1sco123!"><span class="md-icon material-icons">content_copy</span></button></div> |
